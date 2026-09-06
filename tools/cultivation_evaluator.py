@@ -8,8 +8,17 @@ from novelforge.schemas.story_schemas import Character
 
 
 class CultivationCombatEvaluator:
-    # Standard Xianxia realm hierarchy ranking
+    # Standard Xianxia & Apocalypse Awakening hierarchy ranking
     REALM_RANK_MAP = {
+        # Apocalypse 7-Level Awakening System
+        "Novice": 1,
+        "Intermediate": 2,
+        "Master": 3,
+        "Grandmaster": 4,
+        "Great Grandmaster": 5,
+        "Sovereign": 6,
+        "Transcendent": 7,
+        # Classical Xianxia Fallback
         "Mortal": 1,
         "Qi Condensation": 2,
         "Foundation Establishment": 3,
@@ -23,11 +32,13 @@ class CultivationCombatEvaluator:
 
     SUB_REALM_BONUS = {
         "Early": 0.1,
+        "Mid": 0.3,
         "Middle": 0.3,
         "Late": 0.5,
         "Peak": 0.8,
         "None": 0.0
     }
+
 
     @classmethod
     def calculate_power_index(cls, character: Character) -> float:

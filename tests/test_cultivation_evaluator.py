@@ -47,6 +47,27 @@ class TestCultivationEvaluator(unittest.TestCase):
         matchup = CultivationCombatEvaluator.evaluate_matchup(attacker=disciple1, defender=disciple2)
         self.assertEqual(matchup["verdict"], "CONTESTED_SKILL_MATCHUP")
 
+    def test_awakening_levels_evaluation(self):
+        novice_arthur = Character(
+            id="a1",
+            name="Arthur Vance",
+            age=23,
+            gender="Male",
+            cultivation=CultivationState(realm="Novice", sub_realm="Peak")
+        )
+        intermediate_warlord = Character(
+            id="w1",
+            name="Ironfang Cole",
+            age=34,
+            gender="Male",
+            cultivation=CultivationState(realm="Intermediate", sub_realm="Peak")
+        )
+
+        matchup = CultivationCombatEvaluator.evaluate_matchup(attacker=novice_arthur, defender=intermediate_warlord)
+        # 1-realm gap makes direct solo combat desperate without traps/poisons
+        self.assertIn(matchup["verdict"], ["DESPERATE_PYRRHIC_POSSIBILITY", "IMPOSSIBLE_VICTORY"])
+
+
 
 if __name__ == "__main__":
     unittest.main()

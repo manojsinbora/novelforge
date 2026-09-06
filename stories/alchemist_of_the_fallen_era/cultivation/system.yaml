@@ -1,45 +1,100 @@
-# Progression System: Grimdark Bloodline & Soul Alchemy
+# Progression System: The 7-Level Combat Awakening Hierarchy
+# Energy: Primordial Miasma & Prehistoric Aether
 
-system_name: "Primordial Bloodline & Soul Alchemy"
-energy_type: "Primordial Miasma / Prehistoric Vital Aether"
+system_name: "The 7-Level Combat Awakening Hierarchy"
+energy_type: "Primordial Miasma / Prehistoric Aether"
 
-tiers:
+levels:
   - tier_order: 1
-    name: "Mortal"
-    sub_tiers: ["Standard Human", "Physically Conditioned", "Inoculated"]
-    power_index_base: 1.0
-    corruption_risk: "Fatal (Miasma poisoning dissolves internal organs within hours)"
-    capabilities: "Normal human biological limitations."
+    name: "Novice"
+    sub_levels: ["Early", "Mid", "Late", "Peak"]
+    combat_role: "Tactical Skirmisher / Precision Ambush"
+    body_awakening: "Miasma bonds to peripheral motor nerves and reflexes. Perception triples; micro-muscle finger control down to 0.1mm."
+    arthur_combat_arsenal:
+      weapons: "Bone-carbide flechette zip-guns, high-velocity blowpipes, surgical vibro-scalpels."
+      bio_enhancements: "Adrenal regulation, custom anti-miasma respirators, nightshade sensory drops."
+      combat_arrays: "Chalk/solvent contact circles (inversion wards on doorways that incinerate mutants)."
+      energy_conversion: "Makeshift miasma-steam dynamo (powers flashlights and emergency clinic batteries)."
+      alchemy: "Corrosive solvent flasks, paralyzing neurotoxins."
 
   - tier_order: 2
-    name: "Awakened"
-    sub_tiers: ["Minor Mutation", "Feral Reflexes", "Spliced Organ", "Peak Awakened"]
-    power_index_base: 5.0
-    corruption_risk: "High (50%+ suffer bone spurs, predatory psychosis, muscle tearing)"
-    capabilities: "Enhanced speed (30-40 mph), dense musculature, minor kinetic or elemental release."
+    name: "Intermediate"
+    sub_levels: ["Early", "Mid", "Late", "Peak"]
+    combat_role: "Frontline Vanguard / Armor-Breaker"
+    body_awakening: "Miasma calcifies skeleton to titanium density; heart pumps oxygenated primordial blood, granting superhuman stamina."
+    arthur_combat_arsenal:
+      weapons: "High-frequency vibration swords (slices mutant beast chitin), runic burst rifles firing armor-piercing kinetic rounds."
+      bio_enhancements: "Adrenal-overdrive combat injectors for temporary bullet-time; reinforced tendon weaves."
+      combat_arrays: "Deployable brass kinetic bucklers (deflects claws and rifle rounds); directional shock traps."
+      energy_conversion: "Portable primordial fuel cells (powers armored vehicles without gasoline)."
+      alchemy: "Eleanor's Stabilizing Tonic, fast-acting flesh-coagulating salves."
 
   - tier_order: 3
-    name: "Soul-Alchemist"
-    sub_tiers: ["Apothecary Apprentice", "Core Distiller", "Visceral Weaver", "Grand Alchemist"]
-    power_index_base: 25.0
-    corruption_risk: "Controlled (Zero physical degeneration if purity rating >= 92%)"
-    capabilities: "Internal soul-calcification, extraction of beast cores, creation of stable gene-potions, telepathic soul-sense."
+    name: "Master"
+    sub_levels: ["Early", "Mid", "Late", "Peak"]
+    combat_role: "Warmaster / Squad & Beast Pack Annihilator"
+    body_awakening: "Neural super-conduction. Silver-threaded artificial meridians woven into arms, eliminating weapon recoil entirely."
+    arthur_combat_arsenal:
+      weapons: "Dual heavy runic hand-cannons, pneumatic explosive-spike harpoons."
+      bio_enhancements: "Secondary alchemical toxin-filter organ, permanent reflex acceleration."
+      combat_arrays: "Mobile formation disks (throwable brass plates creating Gravity Sinks or Arc-Lightning Killzones)."
+      energy_conversion: "Miasma-to-kinetic energy converter (absorbs enemy shockwaves to recharge weapons)."
+      alchemy: "Concentrated Trojan Draughts (causes unrefined mutant warlord cells to calcify and shatter)."
 
   - tier_order: 4
-    name: "Calamity Knight"
-    sub_tiers: ["Iron Sovereign", "Blood Warlord", "Apex Chimera", "Domain Tyrant"]
-    power_index_base: 125.0
-    corruption_risk: "Extreme (Requires continuous soul-stabilization elixirs to avoid turning into mindless behemoths)"
-    capabilities: "Localized bio-domains (shriveling surrounding flora/fauna), sound-breaking speed, bulletproof carapace, devastating soul-strikes."
+    name: "Grandmaster"
+    sub_levels: ["Early", "Mid", "Late", "Peak"]
+    combat_role: "Heavy Siege Platform / Dreadnought"
+    body_awakening: "Heart crystallizes into a permanent internal Primordial Kinetic Core. Radiates a lethal passive kinetic suppression field."
+    arthur_combat_arsenal:
+      weapons: "Shoulder-mounted kinetic railguns firing depleted-bone penetrators at Mach 5; heavy vibration lances."
+      bio_enhancements: "Subdermal carbon-mesh weave, cellular hyper-regeneration."
+      combat_arrays: "Personal directional forcefield bubble; autonomous deployable spider-turret sentries."
+      energy_conversion: "Geothermal-miasma hybrid generator (powers Blackwood Bunker's industrial factories)."
+      alchemy: "Warlord-core dissolving acids, high-tier soul-stabilizing draughts."
 
   - tier_order: 5
-    name: "Demigod"
-    sub_tiers: ["Earthshaker", "Planar Leviathan", "Primordial Sovereign"]
-    power_index_base: 625.0
-    corruption_risk: "Total Ascendant Singularity"
-    capabilities: "Continental geological manipulation, permanent weather inversion, command over millions of lesser mutant beasts."
+    name: "Great Grandmaster"
+    sub_levels: ["Early", "Mid", "Late", "Peak"]
+    combat_role: "Warlord-Slayer / Fortress Breaker & Sector Dominator"
+    body_awakening: "Domain manifestation. Soul and nervous system project outward up to 100 meters, crushing enemy flesh with gravitational force."
+    arthur_combat_arsenal:
+      weapons: "Heavy particle-beam siege cannons powered by compressed primordial reactors."
+      bio_enhancements: "Full-body Biomechanical Exo-Armor forged from sovereign beast carapaces."
+      combat_arrays: "Bunker-wide impenetrable defense dome; tactical teleportation anchors."
+      energy_conversion: "Planar miasma refinery (converts toxic atmosphere into pure liquid aether)."
+      alchemy: "Autonomous chimera war-constructs powered by synthetic beast cores."
 
-alchemy_purity_rules:
-  crude_beast_blood_consumption: "Purity 20-40%: 80% chance of permanent madness or grotesque mutation."
-  basic_heat_distillation: "Purity 50-65%: Minor side effects, temporary withdrawal."
-  arthurs_14th_century_hermetic_catalysis: "Purity 90-98%: Flawless cell integration, permanent stat leap with zero degeneration."
+  - tier_order: 6
+    name: "Sovereign"
+    sub_levels: ["Early", "Mid", "Late", "Peak"]
+    combat_role: "Leviathan Hunter / Cataclysmic Regional Destroyer"
+    body_awakening: "Cellular transmutation into self-repairing living energy matter. Physical strikes shatter cliffs; sound-barrier flight."
+    arthur_combat_arsenal:
+      weapons: "Spatial-cleaving vibration blades that rip through dimensional rifts; orbital kinetic strike rods."
+      bio_enhancements: "Complete bio-synthetic immortality; instantaneous limb regeneration."
+      combat_arrays: "City-scale anti-mutation radiation matrix (instantly purges enemy mutant bio-domains)."
+      energy_conversion: "Atmospheric perpetual clean-aether engines (powers flying fortress gunships)."
+      alchemy: "Resurrection-grade cellular elixirs, mass-implosion primordial explosives."
+
+  - tier_order: 7
+    name: "Transcendent"
+    sub_levels: ["Early", "Mid", "Late", "Peak"]
+    combat_role: "Living God of War / Planar Apex"
+    body_awakening: "Primordial Singularity. Arthur transcends mortal biology; commands all matter, kinetic energy, and primordial flow on a planetary scale."
+    arthur_combat_arsenal:
+      weapons: "Planetary fissure-sealing anchors; world-cleaving energy lances."
+      bio_enhancements: "Absolute biological and soul perfection (immune to physical decay and entropy)."
+      combat_arrays: "Planetary terraforming formation grids; dimensional rift-locking wards."
+      energy_conversion: "Global energy harmonic converter (restores Earth's biosphere to balanced harmony)."
+      alchemy: "Creation of permanent living sovereign entities; total matter transmutation."
+
+progression_pacing_500_chapters:
+  total_levels: 7
+  sub_levels_per_tier: 4
+  total_progression_milestones: 28
+  average_chapters_per_breakthrough: 18
+  arc_milestone_distribution:
+    arc_1_broken_city_exodus: "Novice Early -> Novice Peak (Breaks through to Intermediate Early at Ch 37-40 after slaying Ironfang)"
+    arc_2_bunker_fortification: "Intermediate Early -> Intermediate Late"
+    arc_3_regional_warlord_war: "Intermediate Peak -> Master Mid"
