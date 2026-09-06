@@ -1,0 +1,134 @@
+# Hierarchical Narrative Structure: Arcs and 20 Chapter Blueprints
+
+saga:
+  id: "saga-01"
+  title: "The Awakening of the Starlit Core"
+  summary: "Lin Chen rises from a disgraced outer disciple, awakens the Astral Compass, and defends the Verdant Cloud Sect from early Blood Raven raids."
+
+arc:
+  id: "arc-01"
+  title: "Arc 1: The Outer Peak Crucible"
+  target_chapters: 20
+  status: "ACTIVE"
+  premise: "Lin Chen must survive the brutal annual resource trials while hiding his forbidden astral cultivation."
+
+chapters:
+  - number: 1
+    title: "Cold Dew and Cracked Meridians"
+    hook: "A bloody rag in the snow outside the outer infirmary."
+    objective: "Lin Chen gathers low-grade herbs to brew medicine for his ailing sister Lin Xia."
+    cliffhanger: "A drunken senior disciple demands Lin Chen's monthly ration token."
+
+  - number: 2
+    title: "The Broken Compass"
+    hook: "The dull thud of an iron shovel striking something resonant beneath the frozen earth."
+    objective: "Lin Chen unearths a corroded brass artifact while clearing the eastern quarry."
+    cliffhanger: "A droplet of Lin Chen's blood sinks into the artifact, igniting starlight."
+
+  - number: 3
+    title: "Whispers of the Sovereign"
+    hook: "An ancient voice echoing directly inside Lin Chen's sea of consciousness."
+    objective: "The Starlit Sovereign Echo introduces the Ninefold Starlit breathing method."
+    cliffhanger: "Lin Chen's blocked meridians violently shatter and reform."
+
+  - number: 4
+    title: "The Copper Token Trial"
+    hook: "Gongs echo across the mountain as three thousand outer disciples gather."
+    objective: "Participate in the mountain race to secure basic spirit stone rations."
+    cliffhanger: "Song Yu trips Lin Chen near the precipice of Cloud Bridge."
+
+  - number: 5
+    title: "Starlight in the Shadows"
+    hook: "Lin Chen slips off the cliff, plummeting toward jagged crags."
+    objective: "Harness the first breath of astral Qi to arrest his lethal fall."
+    cliffhanger: "He discovers a hidden entrance leading into the subterranean vault."
+
+  - number: 6
+    title: "The Subterranean Vault"
+    hook: "Luminescent crystals depicting celestial spheres that no mortal map shows."
+    objective: "Explore the ancient chamber and locate the First Starlit Inscription."
+    cliffhanger: "A slumbering stone beast awakens at the chamber threshold."
+
+  - number: 7
+    title: "Stone Claws and Star Blades"
+    hook: "The guardian beast's granite tail shatters the cavern pillar."
+    objective: "Defeat the guardian using the Starlit Cleaving technique."
+    cliffhanger: "The guardian collapses, leaving behind an Astral Core fragment."
+
+  - number: 8
+    title: "Return to the Mortal World"
+    hook: "Smoke rising from the outer disciple quarters as night falls."
+    objective: "Slip back into the dormitory without alerting Elder Han's patrols."
+    cliffhanger: "Elder Han's enforcer is already searching Lin Chen's wooden chest."
+
+  - number: 9
+    title: "A Shrewd Deception"
+    hook: "The glint of a disciplinary whip raised above Lin Chen's bedding."
+    objective: "Convince the enforcer that the treasure was merely a chunk of iron ore."
+    cliffhanger: "Senior Sister Bai Yue passes by and intervenes, sensing a strange aura."
+
+  - number: 10
+    title: "The Alchemist's Curiosity"
+    hook: "The heady smell of crushed ghost-lotus in the Spirit Herb Pavilion."
+    objective: "Barter with Jiang Meng to obtain three Silver Needle Grass herbs."
+    cliffhanger: "Jiang Meng asks Lin Chen where he obtained such pure celestial residue."
+
+  - number: 11
+    title: "Medicine and Tears"
+    hook: "Lin Xia's pale hands clutching the hot bowl of freshly brewed soup."
+    objective: "Administer the herbal concoction to suppress Lin Xia's meridian decay."
+    cliffhanger: "Her fever breaks, but the Compass warns of a foreign tracking mark on her wrist."
+
+  - number: 12
+    title: "The Shadow in the Market"
+    hook: "Lanterns glowing in the foggy alleys of Cloud Peak Market."
+    objective: "Trace the seller of the contaminated herbs to identify who targeted his sister."
+    cliffhanger: "He runs into Xiao Feng, who warns him that Blood Raven scouts are watching."
+
+  - number: 13
+    title: "Bargain with a Rogue"
+    hook: "A dagger pinned into a wine barrel between Lin Chen and Xiao Feng."
+    objective: "Hire Xiao Feng as an informant using three low-grade spirit stones."
+    cliffhanger: "Xiao Feng reveals that Song Clan is receiving funding from Blood Raven Sect."
+
+  - number: 14
+    title: "Breakthrough Under the Crescent Moon"
+    hook: "Midnight silence on the solitary peak as moonlight converges into a vortex."
+    objective: "Break through from Early to Middle Qi Condensation."
+    cliffhanger: "A celestial resonance ripples across the mountain, alerting Elder Han."
+
+  - number: 15
+    title: "The Disciplinary Summons"
+    hook: "Two iron-armored disciples pounding on the cottage door at dawn."
+    objective: "Face questioning in the Discipline Hall without exposing the Astral Compass."
+    cliffhanger: "Elder Han prepares to perform a soul search on Lin Chen's dantian."
+
+  - number: 16
+    title: "Bai Yue's Intervention"
+    hook: "A streak of brilliant azure sword light pierces the Discipline Hall roof."
+    objective: "Survive the standoff between Bai Yue and Elder Han."
+    cliffhanger: "Bai Yue declares Lin Chen as her temporary sparring attendant."
+
+  - number: 17
+    title: "The Sword Cleansing Pond"
+    hook: "Thousands of rusted blades stuck into misty stone pillars."
+    objective: "Observe Bai Yue's sword forms and correlate them with the Starlit Dao."
+    cliffhanger: "Lin Chen accidentally repairs an ancient sword's broken inscription with astral Qi."
+
+  - number: 18
+    title: "Eve of the Outer Tournament"
+    hook: "Drum beats reverberate across the seven mountain peaks."
+    objective: "Finalize combat tactics against Song Yu and the Song Clan enforcers."
+    cliffhanger: "Ghost Envoy Mo watches Lin Chen from the forest canopy."
+
+  - number: 19
+    title: "The Arena of Thousand Disciples"
+    hook: "Roars of the crowd as thirty-two arena rings erupt in flames and lightning."
+    objective: "Advance through the preliminary rounds without revealing his trump card."
+    cliffhanger: "Song Yu enters the ring, smiling with a forbidden blood pill concealed under his tongue."
+
+  - number: 20
+    title: "Clash of Star and Blood"
+    hook: "The gong sounds; Song Yu unleashes the Song Clan's Gale Blade Art."
+    objective: "Defeat Song Yu, claim the tournament prize, and avenge his sister's stolen herbs."
+    cliffhanger: "Song Yu falls, but as he collapses, a Blood Raven mark burns onto the arena floor—signaling an invasion."

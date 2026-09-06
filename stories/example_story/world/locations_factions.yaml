@@ -1,0 +1,42 @@
+# World Engine: Locations and Factions
+
+factions:
+  - id: "fac-01"
+    name: "Verdant Cloud Sect"
+    alignment: "Declining Righteous"
+    influence: "Regional Mountain Range"
+    leader_id: "char-005"
+    summary: "A once-glorious sword cultivation sect now suffering from internal corruption and shrinking spirit veins."
+
+  - id: "fac-02"
+    name: "Blood Raven Sect"
+    alignment: "Aggressive Expansionist"
+    influence: "Eastern Wastelands"
+    leader_id: "char-007"
+    summary: "Practitioners of blood vitality extraction and sinister avian familiars seeking total dominion."
+
+  - id: "fac-03"
+    name: "Shadow Court"
+    alignment: "Covert Criminal / Informant Syndicate"
+    influence: "Planar Underworld"
+    leader_id: "char-010"
+    summary: "An elusive guild that buys and sells forbidden secrets and relics of the pre-collapse era."
+
+locations:
+  - id: "loc-01"
+    name: "Verdant Cloud Outer Peak"
+    region: "Azure Mist Mountain"
+    danger_level: "Low"
+    description: "Cascading terraced pavilions where thousands of outer disciples chop spirit wood and practice basic breathing."
+
+  - id: "loc-02"
+    name: "Discipline Hall"
+    region: "Verdant Cloud Sect"
+    danger_level: "Moderate"
+    description: "Imposing black basalt towers where punitive trials and sect rules are enforced with iron discipline."
+
+  - id: "loc-03"
+    name: "The Subterranean Star Vault"
+    region: "Forgotten Ruin Beneath Outer Peak"
+    danger_level: "Deadly"
+    description: "A colossal chamber lined with obsidian constellations and glowing astral stelae, untouched for millennia."

@@ -1,0 +1,144 @@
+# Character Dossiers (10+ characters)
+characters:
+  - id: "char-001"
+    name: "Lin Chen"
+    role: "Protagonist"
+    age: 16
+    gender: "Male"
+    cultivation:
+      realm: "Qi Condensation"
+      sub_realm: "Early"
+      rank_level: 2
+    driving_want: "Unlock the secrets of the Astral Compass and protect his sister."
+    core_fear: "Being cast out into the wilderness as a crippled mortal."
+    current_location: "Verdant Cloud Sect Outer Peak"
+
+  - id: "char-002"
+    name: "Lin Xia"
+    role: "Protagonist's Younger Sister"
+    age: 13
+    gender: "Female"
+    cultivation:
+      realm: "Mortal"
+      sub_realm: "None"
+      rank_level: 1
+    driving_want: "Heal her dormant meridian illness."
+    core_fear: "Becoming a burden to Lin Chen."
+    current_location: "Verdant Cloud Outer Infirmary"
+
+  - id: "char-003"
+    name: "Elder Han"
+    role: "Outer Sect Disciplinary Elder"
+    age: 140
+    gender: "Male"
+    cultivation:
+      realm: "Foundation Establishment"
+      sub_realm: "Late"
+      rank_level: 3
+    driving_want: "Acquire a Longevity Pill to overcome his impending lifespan limit."
+    core_fear: "Dying without entering the Inner Sect Pavilion."
+    current_location: "Discipline Hall"
+
+  - id: "char-004"
+    name: "Song Yu"
+    role: "Arrogant Outer Sect Disciple"
+    age: 18
+    gender: "Male"
+    cultivation:
+      realm: "Qi Condensation"
+      sub_realm: "Peak"
+      rank_level: 2
+    driving_want: "Win the Annual Outer Tournament and gain entry into the Song Clan Ancestral Hall."
+    core_fear: "Being humiliated by lower-branch disciples."
+    current_location: "Martial Sparring Ring"
+
+  - id: "char-005"
+    name: "Grand Elder Gu"
+    role: "Declining Sect Grandmaster"
+    age: 480
+    gender: "Male"
+    cultivation:
+      realm: "Core Formation"
+      sub_realm: "Peak"
+      rank_level: 4
+    driving_want: "Prevent the Verdant Cloud Sect from being absorbed by the Blood Raven Sect."
+    core_fear: "Internal rot and betrayal from within the Elder Council."
+    current_location: "Grand Cloud Hall"
+
+  - id: "char-006"
+    name: "Jiang Meng"
+    role: "Enigmatic Alchemist & Pavilion Mistress"
+    age: 26
+    gender: "Female"
+    cultivation:
+      realm: "Foundation Establishment"
+      sub_realm: "Middle"
+      rank_level: 3
+    driving_want: "Collect ancient pre-collapse pill recipes."
+    core_fear: "Her true heritage being discovered by the Crimson Tribunal."
+    current_location: "Spirit Herb Pavilion"
+
+  - id: "char-007"
+    name: "Patriarch Yan of Blood Raven Sect"
+    role: "Main Saga Antagonist"
+    age: 320
+    gender: "Male"
+    cultivation:
+      realm: "Core Formation"
+      sub_realm: "Early"
+      rank_level: 4
+    driving_want: "Conquer the Verdant Cloud territory to control the Spirit Vein beneath."
+    core_fear: "A rival core master ambushing him during seclusion."
+    current_location: "Blood Raven Fortress"
+
+  - id: "char-008"
+    name: "Xiao Feng"
+    role: "Wandering Rogue Cultivator"
+    age: 22
+    gender: "Male"
+    cultivation:
+      realm: "Qi Condensation"
+      sub_realm: "Middle"
+      rank_level: 2
+    driving_want: "Earn spirit stones to buy freedom for his clan."
+    core_fear: "Betrayal by sworn brothers."
+    current_location: "Cloud Peak Market"
+
+  - id: "char-009"
+    name: "Senior Sister Bai Yue"
+    role: "Sword Genius & Inner Disciple"
+    age: 19
+    gender: "Female"
+    cultivation:
+      realm: "Foundation Establishment"
+      sub_realm: "Early"
+      rank_level: 3
+    driving_want: "Master the Thirty-Six Heavenly Sword forms."
+    core_fear: "Stagnating in her sword intent."
+    current_location: "Sword Cleansing Pond"
+
+  - id: "char-010"
+    name: "Ghost Envoy Mo"
+    role: "Infiltrator & Hidden Assassin"
+    age: 45
+    gender: "Male"
+    cultivation:
+      realm: "Foundation Establishment"
+      sub_realm: "Peak"
+      rank_level: 3
+    driving_want: "Locate the lost Astral Compass for the Shadow Court."
+    core_fear: "Failing the Shadow Court Patriarch's blood oath."
+    current_location: "Shadow Realm / Hidden"
+
+  - id: "char-011"
+    name: "Starlit Sovereign Echo"
+    role: "Ancient Vault Spirit / Mentor"
+    age: 10000
+    gender: "Agender"
+    cultivation:
+      realm: "True Immortal"
+      sub_realm: "Fragment"
+      rank_level: 9
+    driving_want: "Find a worthy inheritor to restore the Cosmic Dao."
+    core_fear: "Soul dissolution into nothingness."
+    current_location: "Inside Astral Compass"

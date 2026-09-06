@@ -1,0 +1,37 @@
+# Cultivation System Configuration: The Ninefold Starlit Dao
+
+system_name: "Ninefold Starlit Dao & Earthly Ley Path"
+energy_types:
+  - "Earthly Spiritual Qi"
+  - "Astral Cosmic Starlight"
+
+realms:
+  - name: "Mortal"
+    tier_order: 1
+    sub_realms: ["None"]
+    lifespan_years: 80
+    capabilities: "Standard human physical limits."
+
+  - name: "Qi Condensation"
+    tier_order: 2
+    sub_realms: ["Early", "Middle", "Late", "Peak"]
+    lifespan_years: 120
+    capabilities: "Can channel Qi into weapons, perform light body art, minor elemental manipulation."
+
+  - name: "Foundation Establishment"
+    tier_order: 3
+    sub_realms: ["Early", "Middle", "Late", "Peak"]
+    lifespan_years: 250
+    capabilities: "Spiritual sense projection (up to 1 li), sword flight, internal liquid spiritual sea."
+
+  - name: "Core Formation"
+    tier_order: 4
+    sub_realms: ["Early", "Middle", "Late", "Peak"]
+    lifespan_years: 500
+    capabilities: "True gold core, mountain-cleaving strikes, domain pressure, fire-resistant flesh."
+
+  - name: "Nascent Soul"
+    tier_order: 5
+    sub_realms: ["Early", "Middle", "Late", "Peak"]
+    lifespan_years: 1200
+    capabilities: "Soul projection independent of physical body, spatial teleportation over short ranges."

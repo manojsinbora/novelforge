@@ -1,0 +1,36 @@
+# Plot Engine: Mysteries, Foreshadowing, and Narrative Promises
+
+promises:
+  - id: "prom-001"
+    title: "Curing Lin Xia's Dormant Meridian Affliction"
+    introduced_chapter: 1
+    expected_payoff_min: 40
+    expected_payoff_max: 60
+    status: "OPEN"
+    description: "Lin Chen promised his dying mother he would find an ancient restorative pill to heal Lin Xia."
+
+  - id: "prom-002"
+    title: "The Revenge Against Song Clan's Bribery"
+    introduced_chapter: 3
+    expected_payoff_min: 15
+    expected_payoff_max: 25
+    status: "ACTIVE"
+    description: "Song Yu bribed the trial examiner to steal Lin Chen's allocated spirit stones. Lin Chen vowed retribution at the Outer Tournament."
+
+mysteries:
+  - id: "myst-001"
+    title: "The Fall of the Starlit Sovereign"
+    status: "UNRESOLVED"
+    author_known: true
+    reader_known: false
+    protagonist_known: false
+    description: "Ten thousand years ago, the Starlit Empire vanished overnight. The sect histories claim they were demon cultists, but the reality was a betrayal by the Nine Great Sages."
+
+foreshadowing:
+  - id: "fore-001"
+    seed_chapter: 2
+    clue_text: "Lin Chen notices a faint blue constellation tattoo on Elder Han's left collarbone during punishment."
+    intended_false_meaning: "Elder Han has a secret heretical poison cultivation technique."
+    true_meaning: "Elder Han is an undercover agent of the Shadow Court branded with an astral tracking seal."
+    planned_payoff_chapter: 85
+    status: "SEEDED"

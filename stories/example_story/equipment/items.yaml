@@ -1,0 +1,33 @@
+# Equipment Engine: Item Catalog
+
+items:
+  - id: "item-001"
+    name: "The Dormant Astral Compass"
+    type: "Artifact"
+    rarity: "Divine / Ancient Sovereign Grade"
+    current_owner: "char-001" # Lin Chen
+    abilities:
+      - "Absorbs celestial starlight to purify contaminated spiritual meridians."
+      - "Houses the dormant soul fragment of the Starlit Sovereign."
+      - "Generates karmic resonance when approaching ancient vault keys."
+    limitations:
+      - "Consumes massive spiritual vitality if overdrawn."
+      - "Causes celestial radiation backlash if wielded with impure earthly Qi."
+
+  - id: "item-002"
+    name: "Frost-Pattern Iron Sword"
+    type: "Weapon"
+    rarity: "Common Mortal-Spiritual Grade"
+    current_owner: "char-001" # Lin Chen
+    abilities:
+      - "Chills striking edges by +10%."
+    durability: 85
+
+  - id: "item-003"
+    name: "Seven-Star Azure Sword"
+    type: "Weapon"
+    rarity: "High Earth Grade"
+    current_owner: "char-009" # Bai Yue
+    abilities:
+      - "Channels lightning and wind sword intent."
+    durability: 100
