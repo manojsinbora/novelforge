@@ -7,12 +7,23 @@ Amid this carnage is **Arthur Vance (23)**:
 * A part-time municipal archivist who spent five years meticulously reading and memorizing every single volume in the national library—botany, metallurgy, ballistics, classical physics, 14th-century hermetic geometries, and anatomical surgery—simply because he believed that to shelve a book properly, he had to understand every word.
 * **His Combat Edge:** Pure Encyclopedic Deduction. No magical cheat system or glowing HUD. When an opponent who is an entire realm stronger than him lunges forward, Arthur’s brain instantly cross-references comparative biology and physics, identifying that their enlarged mutant limb has a fatal kinetic stress point that can be shattered with a single calculated strike.
 * **His Master Craft:** He is an **Omnicrafter & Battle-Artificer**—engineering modular upgradable firearms, high-frequency vibration blades, deployable combat array plates, kinetic shields, and bio-stabilizing energy dynamos.
-* **The Running Tragicomic Curse:** Arthur desperately wants to be recognized, praised, and thought of as capable and heroic. But through ridiculous twists of apocalyptic fate, chaotic battlefield timing, or bizarre coincidences, he is never in the spotlight when witnesses arrive. Someone else—a loudmouthed survivor, a clueless bystander, an arrogant guard, or literally a stray rat knocking over a fuel tank—invariably gets credited for Arthur's legendary combat feats. 
-  * While Arthur is dismissed as "that quiet library nerd who sweeps the floor," warlords across the wasteland live in sheer terror of an elusive, mythical phantom known only as **The Ghost Artificer**.
 
 ---
 
-## 2. The 7-Level Combat Awakening Hierarchy
+## 2. Tone & Prose Style: Saitama-Style Humorous Anticlimax
+* **The Narrative Texture:** Dryly witty, fast-paced, and hilarious, contrasting grimdark apocalyptic danger with absurd situational comedy and Arthur's deadpan, exasperated internal monologue (akin to *One Punch Man* and *The Legendary Mechanic*).
+* **The Dramatic Build-Up $\to$ Coincidental Theft Dynamic:**
+  1. **The Build-Up:** High tension, intense stakes, epic mathematical calculations, and jaw-dropping engineering feats. The prose builds massive reader anticipation for Arthur to finally get the heroic recognition he craves.
+  2. **The Absurd Theft:** At the exact microsecond the dust clears, a ridiculous, perfectly timed coincidence robs him of the credit:
+     * Arthur bends down to pick up a dropped brass bolt, vanishing from view.
+     * The smoke parts to reveal someone else standing there looking inadvertently badass (e.g., Vera holding a smoking rifle, a bumbling hospital guard who tripped, or **Barnaby the camp rat**).
+     * The onlookers perform Olympic-level mental gymnastics to explain the victory: *"The beast must have suffered a spontaneous arterial aneurism!"*, *"The stray rat is an omen of the ancient spirits!"*, *"A secret military satellite fired a kinetic rod!"*
+  3. **The Aftermath:** Arthur stands in the corner, twitching, holding his wrench while everyone celebrates the wrong person. Eleanor screams at the crowd in defense of her brother, but people just coo: *"Aww, look at the devoted little sister protecting her useless big brother's pride!"*
+  4. **The Shadow Legend:** Meanwhile, the terrified mutant warlord cabals hold emergency midnight summits, trembling in mortal fear of the mythical, god-like assassin known only as **The Ghost Artificer**.
+
+---
+
+## 3. The 7-Level Combat Awakening Hierarchy
 *Progression across 500 Chapters (4 Sublevels per tier: Early $\to$ Mid $\to$ Late $\to$ Peak = 28 Power Milestones)*
 
 1. **Novice** (Early $\to$ Mid $\to$ Late $\to$ Peak) — Peripheral nerve bonding, triple perception, micro-muscle control. Weapon: Modular Flechette Chassis, surgical vibro-daggers, chalk doorway inversion circles.
@@ -25,6 +36,6 @@ Amid this carnage is **Arthur Vance (23)**:
 
 ---
 
-## 3. Core Combat Principles
+## 4. Core Combat Principles
 * **Outsmarting Higher Realms:** A Novice Peak Arthur can kill an Intermediate Peak warlord because raw brute mutation is unrefined, asymmetric, and full of biological strain. Arthur designs the exact weapon counter and sets the exact trap to collapse the opponent's unstable anatomy.
 * **The Modular Armament System:** Rather than juggling dozens of random weapons, Arthur invents and continuously upgrades **"The Chimera Frame"**—a modular weapon chassis that adapts swappable barrels, beast-core power cells, and array cartridges (sniper rail $\to$ rapid kinetic burst $\to$ thermal vibration blade).
