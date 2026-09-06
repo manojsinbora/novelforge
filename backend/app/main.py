@@ -24,32 +24,37 @@ def get_health_status() -> Dict[str, Any]:
             "Epistemic Knowledge Matrix",
             "Dynamic Token Budgeting",
             "Hybrid Cultivation Evaluator",
-            "Multi-Tier Model Router"
+            "Multi-Tier Model Router",
+            "Phase 2: Narrative State Engine & Story Bible System"
         ]
     }
-
-def query_story_state(story_id: str, chapter_number: int, location: str = "Azure Dragon Sect") -> Dict[str, Any]:
-    return state_engine.get_narrative_state(story_id, chapter_number, location)
 
 # FastAPI Integration (when installed)
 try:
     from fastapi import FastAPI, HTTPException
-    from pydantic import BaseModel
+    from fastapi.middleware.cors import CORSMiddleware
+    from novelforge.backend.app.api.v1.narrative_router import router as narrative_router
 
     app = FastAPI(
         title="NovelForge AI Engine API",
-        description="Persistent Narrative State Engine for Long-Form Web Novels",
+        description="Persistent Narrative State Engine & Story Bible System for Long-Form Web Novels",
         version="2.0.0"
+    )
+
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
     )
 
     @app.get("/health")
     def health_check():
         return get_health_status()
 
-    @app.get("/api/v1/stories/{story_id}/state")
-    def get_state(story_id: str, chapter: int = 1, location: str = "Azure Dragon Sect"):
-        return query_story_state(story_id, chapter, location)
+    # Mount Phase 2 narrative router
+    app.include_router(narrative_router)
 
 except ImportError:
-    # Running in lightweight standard-library environment
     app = None

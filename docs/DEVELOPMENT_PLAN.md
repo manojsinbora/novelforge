@@ -4,21 +4,33 @@ This roadmap implements NovelForge AI incrementally. Each phase delivers a testa
 
 ---
 
-### Phase 1: Project Foundation & Core State Engine (Current Phase)
+### Phase 1: Project Foundation & Core State Engine (Completed)
 * **Deliverables:**
   * Project structure, dependency setup, and packaging.
-  * SQLAlchemy database layer with Event Sourcing Ledger (`story_events`, `event_snapshots`).
+  * SQLAlchemy / SQLite database layer with Event Sourcing Ledger (`story_events`, `event_snapshots`).
   * Provider-independent LLM abstraction with Mock & Live providers.
   * Dynamic Context Budgeter & Token Allocator module.
   * FastAPI server skeleton with initial endpoints.
 * **Exit Criteria:** All unit tests pass; state can be mutated, replayed, and projected deterministically.
 
-### Phase 2: Story Bible, Characters & Epistemic Knowledge Engine
-* Schema migrations for Story Bible, World, and Characters.
-* Epistemic Knowledge State Tracker (`Author`, `Reader`, `Character` flags).
-* Automated Git export worker for human-readable YAML/Markdown story files.
+### Phase 2: Narrative State Engine & Story Bible System (Completed)
+* **Deliverables:**
+  * Story Entity Hierarchy (Series -> Saga -> Arc -> Chapter -> Scene).
+  * Configurable Story Bible (Premise, Themes, Tone dials, Narrative & World Rules).
+  * Canon Protection System (CANON, PROVISIONAL, DRAFT, DEPRECATED with approval workflow).
+  * Character Engine & First-Class Relationships with historical tracking.
+  * Epistemic Knowledge Matrix (Author vs Reader vs Character knowledge; secret-leak guard).
+  * Hierarchical World Engine (Locations & Factions) and Spatial Travel Continuity Validator.
+  * Story Events & Timeline (separating Real World Date, Story Day/Year, and Chapter Number).
+  * Chapter Memory & Historical State Reconstruction at Chapter N.
+  * Dual-mode persistence (SQLite zero-dependency + PostgreSQL compatible).
+  * Agent Access Layer facade (`StoryContextService`).
+  * Full REST API & Interactive Web Dashboard (`dashboard.html`).
+  * Seed Story: *"Echoes of the Fallen Heaven"* (Cultivation + Regression + Mystery).
+* **Exit Criteria:** 100% test pass rate across 16 unit tests; invariant assertions verified; filesystem export verified.
 
-### Phase 3: Hierarchical Planning (Saga $\to$ Arc $\to$ Chapter)
+### Phase 3: Hierarchical Planning (Saga -> Arc -> Chapter) (Next Phase)
+
 * Arc Planner & Chapter Blueprinting agent prompts.
 * Scene beat planner (3–5 scenes per chapter).
 * Tension curve and hook placement validation.

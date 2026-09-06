@@ -1,0 +1,27 @@
+{
+  "narrative_rules": {
+    "pov_rules": "Third Person Limited (Lin Chen POV primary)",
+    "tense": "Past Tense",
+    "chapter_style": "Serial Web Novel",
+    "dialogue_preferences": "Brisk, razor-sharp, dry humor contrast",
+    "pacing_preferences": "Fast escalation with chapter-end cliffhangers",
+    "exposition_limits": "Show don't tell; maximum 2 paragraphs of lore per scene",
+    "combat_style": "Tactical, anatomical, visceral, rule-consistent",
+    "romance_style": "Slow-burn, subtle, mutual respect"
+  },
+  "world_rules": {
+    "magic_rules": {
+      "energy_type": "Primordial Miasma and Earthly Spiritual Qi"
+    },
+    "cultivation_rules": {
+      "tiers": "Novice -> Intermediate -> Master -> Grandmaster -> Great Grandmaster -> Sovereign -> Transcendent"
+    },
+    "technology_rules": {},
+    "physics_exceptions": [
+      "Subterranean orichalcum blocks miasma expansion"
+    ],
+    "supernatural_rules": [],
+    "political_rules": [],
+    "economic_rules": []
+  }
+}

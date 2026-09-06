@@ -1,0 +1,83 @@
+[
+  {
+    "id": "fac-01",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "name": "Verdant Cloud Sect",
+    "faction_type": "Sect",
+    "description": "Declining Righteous Sword Sect",
+    "leader_character_id": null,
+    "headquarters_location_id": null,
+    "alignment": "Neutral",
+    "military_strength": 5.0,
+    "allied_factions": [],
+    "rival_factions": [
+      "fac-02"
+    ],
+    "canon_status": "CANON",
+    "version": 1
+  },
+  {
+    "id": "fac-02",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "name": "Blood Raven Sect",
+    "faction_type": "Warlord Cult",
+    "description": "Ruthless blood vitality cultivators",
+    "leader_character_id": null,
+    "headquarters_location_id": null,
+    "alignment": "Neutral",
+    "military_strength": 5.0,
+    "allied_factions": [],
+    "rival_factions": [
+      "fac-01"
+    ],
+    "canon_status": "CANON",
+    "version": 1
+  },
+  {
+    "id": "fac-03",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "name": "The Shadow Court",
+    "faction_type": "Syndicate",
+    "description": "Underground information and assassination guild",
+    "leader_character_id": null,
+    "headquarters_location_id": null,
+    "alignment": "Neutral",
+    "military_strength": 5.0,
+    "allied_factions": [],
+    "rival_factions": [],
+    "canon_status": "CANON",
+    "version": 1
+  },
+  {
+    "id": "fac-04",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "name": "Song Aristocratic Clan",
+    "faction_type": "Clan",
+    "description": "Corrupt merchant-cultivator family inside the sect",
+    "leader_character_id": null,
+    "headquarters_location_id": null,
+    "alignment": "Neutral",
+    "military_strength": 5.0,
+    "allied_factions": [],
+    "rival_factions": [
+      "fac-01"
+    ],
+    "canon_status": "CANON",
+    "version": 1
+  },
+  {
+    "id": "fac-05",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "name": "The Starlit Remnant",
+    "faction_type": "Ancient Faction",
+    "description": "Pre-collapse civilization sealed beneath Earth",
+    "leader_character_id": null,
+    "headquarters_location_id": null,
+    "alignment": "Neutral",
+    "military_strength": 5.0,
+    "allied_factions": [],
+    "rival_factions": [],
+    "canon_status": "CANON",
+    "version": 1
+  }
+]

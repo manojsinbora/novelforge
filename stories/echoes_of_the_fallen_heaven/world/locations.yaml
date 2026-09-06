@@ -1,0 +1,233 @@
+[
+  {
+    "id": "loc-01",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "name": "Great Azure Planar World",
+    "type": "WORLD",
+    "description": "",
+    "parent_location_id": null,
+    "controlling_faction_id": null,
+    "inhabitants_count": 0,
+    "political_status": "Neutral",
+    "resources": [],
+    "danger_level": "Low",
+    "history": "",
+    "coordinates": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "known_secrets": [],
+    "canon_status": "CANON",
+    "version": 1
+  },
+  {
+    "id": "loc-02",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "name": "Eastern Mist Continent",
+    "type": "CONTINENT",
+    "description": "",
+    "parent_location_id": "loc-01",
+    "controlling_faction_id": null,
+    "inhabitants_count": 0,
+    "political_status": "Neutral",
+    "resources": [],
+    "danger_level": "Low",
+    "history": "",
+    "coordinates": {
+      "x": 100.0,
+      "y": 100.0
+    },
+    "known_secrets": [],
+    "canon_status": "CANON",
+    "version": 1
+  },
+  {
+    "id": "loc-03",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "name": "Tiannan Country",
+    "type": "COUNTRY",
+    "description": "",
+    "parent_location_id": "loc-02",
+    "controlling_faction_id": null,
+    "inhabitants_count": 0,
+    "political_status": "Neutral",
+    "resources": [],
+    "danger_level": "Low",
+    "history": "",
+    "coordinates": {
+      "x": 150.0,
+      "y": 150.0
+    },
+    "known_secrets": [],
+    "canon_status": "CANON",
+    "version": 1
+  },
+  {
+    "id": "loc-04",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "name": "Verdant Cloud Sect",
+    "type": "SECT",
+    "description": "",
+    "parent_location_id": "loc-03",
+    "controlling_faction_id": null,
+    "inhabitants_count": 0,
+    "political_status": "Neutral",
+    "resources": [],
+    "danger_level": "Low",
+    "history": "",
+    "coordinates": {
+      "x": 200.0,
+      "y": 200.0
+    },
+    "known_secrets": [],
+    "canon_status": "CANON",
+    "version": 1
+  },
+  {
+    "id": "loc-05",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "name": "Outer Disciple Peak",
+    "type": "LANDMARK",
+    "description": "",
+    "parent_location_id": "loc-04",
+    "controlling_faction_id": null,
+    "inhabitants_count": 0,
+    "political_status": "Neutral",
+    "resources": [],
+    "danger_level": "Low",
+    "history": "",
+    "coordinates": {
+      "x": 205.0,
+      "y": 205.0
+    },
+    "known_secrets": [],
+    "canon_status": "CANON",
+    "version": 1
+  },
+  {
+    "id": "loc-06",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "name": "Discipline Hall",
+    "type": "BUILDING",
+    "description": "",
+    "parent_location_id": "loc-04",
+    "controlling_faction_id": null,
+    "inhabitants_count": 0,
+    "political_status": "Neutral",
+    "resources": [],
+    "danger_level": "Low",
+    "history": "",
+    "coordinates": {
+      "x": 210.0,
+      "y": 210.0
+    },
+    "known_secrets": [],
+    "canon_status": "CANON",
+    "version": 1
+  },
+  {
+    "id": "loc-07",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "name": "Spirit Herb Pavilion",
+    "type": "BUILDING",
+    "description": "",
+    "parent_location_id": "loc-04",
+    "controlling_faction_id": null,
+    "inhabitants_count": 0,
+    "political_status": "Neutral",
+    "resources": [],
+    "danger_level": "Low",
+    "history": "",
+    "coordinates": {
+      "x": 215.0,
+      "y": 215.0
+    },
+    "known_secrets": [],
+    "canon_status": "CANON",
+    "version": 1
+  },
+  {
+    "id": "loc-08",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "name": "Sword Cleansing Pond",
+    "type": "LANDMARK",
+    "description": "",
+    "parent_location_id": "loc-04",
+    "controlling_faction_id": null,
+    "inhabitants_count": 0,
+    "political_status": "Neutral",
+    "resources": [],
+    "danger_level": "Low",
+    "history": "",
+    "coordinates": {
+      "x": 220.0,
+      "y": 220.0
+    },
+    "known_secrets": [],
+    "canon_status": "CANON",
+    "version": 1
+  },
+  {
+    "id": "loc-09",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "name": "The Subterranean Star Vault",
+    "type": "ROOM",
+    "description": "",
+    "parent_location_id": "loc-05",
+    "controlling_faction_id": null,
+    "inhabitants_count": 0,
+    "political_status": "Neutral",
+    "resources": [],
+    "danger_level": "Low",
+    "history": "",
+    "coordinates": {
+      "x": 206.0,
+      "y": 206.0
+    },
+    "known_secrets": [],
+    "canon_status": "CANON",
+    "version": 1
+  },
+  {
+    "id": "loc-10",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "name": "Cloud Peak Market",
+    "type": "CITY",
+    "description": "",
+    "parent_location_id": "loc-03",
+    "controlling_faction_id": null,
+    "inhabitants_count": 0,
+    "political_status": "Neutral",
+    "resources": [],
+    "danger_level": "Low",
+    "history": "",
+    "coordinates": {
+      "x": 260.0,
+      "y": 260.0
+    },
+    "known_secrets": [],
+    "canon_status": "CANON",
+    "version": 1
+  },
+  {
+    "id": "loc-11",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "name": "Blood Raven Fortress",
+    "type": "BUILDING",
+    "description": "",
+    "parent_location_id": "loc-03",
+    "controlling_faction_id": null,
+    "inhabitants_count": 0,
+    "political_status": "Neutral",
+    "resources": [],
+    "danger_level": "Low",
+    "history": "",
+    "coordinates": {
+      "x": 600.0,
+      "y": 600.0
+    },
+    "known_secrets": [],
+    "canon_status": "CANON",
+    "version": 1
+  }
+]

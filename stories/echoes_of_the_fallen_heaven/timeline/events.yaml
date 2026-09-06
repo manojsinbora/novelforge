@@ -1,0 +1,189 @@
+[
+  {
+    "id": "ev-01",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "chapter_number": 1,
+    "scene_number": 1,
+    "story_day": 1,
+    "story_year": 1,
+    "real_world_timestamp": "2026-09-06T08:06:11.999222",
+    "location_id": "loc-05",
+    "location_name": "Outer Disciple Peak",
+    "participants": [
+      "Lin Chen"
+    ],
+    "event_type": "DISCOVERY",
+    "description": "Lin Chen returns to his 16-year-old body during morning chores.",
+    "consequences": [],
+    "canon_status": "CANON"
+  },
+  {
+    "id": "ev-02",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "chapter_number": 1,
+    "scene_number": 2,
+    "story_day": 1,
+    "story_year": 1,
+    "real_world_timestamp": "2026-09-06T08:06:11.999507",
+    "location_id": "loc-09",
+    "location_name": "Subterranean Star Vault",
+    "participants": [
+      "Lin Chen"
+    ],
+    "event_type": "ITEM_ACQUIRED",
+    "description": "Unearths the dormant Astral Compass beneath the quarry.",
+    "consequences": [],
+    "canon_status": "CANON"
+  },
+  {
+    "id": "ev-03",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "chapter_number": 2,
+    "scene_number": 1,
+    "story_day": 2,
+    "story_year": 1,
+    "real_world_timestamp": "2026-09-06T08:06:11.999771",
+    "location_id": "loc-05",
+    "location_name": "Outer Disciple Peak",
+    "participants": [
+      "Lin Chen",
+      "Song Yu"
+    ],
+    "event_type": "BATTLE",
+    "description": "Song Yu attempts to extort Lin Chen; Lin Chen uses weak-point strike to disarm him.",
+    "consequences": [],
+    "canon_status": "CANON"
+  },
+  {
+    "id": "ev-04",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "chapter_number": 2,
+    "scene_number": 2,
+    "story_day": 2,
+    "story_year": 1,
+    "real_world_timestamp": "2026-09-06T08:06:12.000005",
+    "location_id": "loc-06",
+    "location_name": "Discipline Hall",
+    "participants": [
+      "Lin Chen",
+      "Elder Han"
+    ],
+    "event_type": "MEETING",
+    "description": "Elder Han interrogates Lin Chen regarding Song Yu's broken arm.",
+    "consequences": [],
+    "canon_status": "CANON"
+  },
+  {
+    "id": "ev-05",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "chapter_number": 3,
+    "scene_number": 1,
+    "story_day": 3,
+    "story_year": 1,
+    "real_world_timestamp": "2026-09-06T08:06:12.000226",
+    "location_id": "loc-07",
+    "location_name": "Spirit Herb Pavilion",
+    "participants": [
+      "Lin Chen",
+      "Jiang Meng"
+    ],
+    "event_type": "DISCOVERY",
+    "description": "Lin Chen barters for Silver Needle Grass to synthesize Eleanor's tonic.",
+    "consequences": [],
+    "canon_status": "CANON"
+  },
+  {
+    "id": "ev-06",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "chapter_number": 3,
+    "scene_number": 2,
+    "story_day": 3,
+    "story_year": 1,
+    "real_world_timestamp": "2026-09-06T08:06:12.000440",
+    "location_id": "loc-05",
+    "location_name": "Outer Disciple Peak",
+    "participants": [
+      "Lin Chen",
+      "Barnaby the Camp Rat"
+    ],
+    "event_type": "REVELATION",
+    "description": "Barnaby knocks over a tea kettle, extinguishing a fire set by an assassin.",
+    "consequences": [],
+    "canon_status": "CANON"
+  },
+  {
+    "id": "ev-07",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "chapter_number": 4,
+    "scene_number": 1,
+    "story_day": 4,
+    "story_year": 1,
+    "real_world_timestamp": "2026-09-06T08:06:12.000648",
+    "location_id": "loc-08",
+    "location_name": "Sword Cleansing Pond",
+    "participants": [
+      "Lin Chen",
+      "Bai Yue"
+    ],
+    "event_type": "MEETING",
+    "description": "Bai Yue notices Lin Chen's refined sword intent and shields him from Elder Han.",
+    "consequences": [],
+    "canon_status": "CANON"
+  },
+  {
+    "id": "ev-08",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "chapter_number": 4,
+    "scene_number": 2,
+    "story_day": 5,
+    "story_year": 1,
+    "real_world_timestamp": "2026-09-06T08:06:12.000852",
+    "location_id": "loc-05",
+    "location_name": "Outer Disciple Peak",
+    "participants": [
+      "Lin Chen"
+    ],
+    "event_type": "BREAKTHROUGH",
+    "description": "Lin Chen breaks through from Novice Early to Novice Middle using Astral breathing.",
+    "consequences": [],
+    "canon_status": "CANON"
+  },
+  {
+    "id": "ev-09",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "chapter_number": 5,
+    "scene_number": 1,
+    "story_day": 6,
+    "story_year": 1,
+    "real_world_timestamp": "2026-09-06T08:06:12.001060",
+    "location_id": "loc-10",
+    "location_name": "Cloud Peak Market",
+    "participants": [
+      "Lin Chen",
+      "Xiao Feng"
+    ],
+    "event_type": "DISCOVERY",
+    "description": "Xiao Feng warns of Blood Raven scouts infiltrating the lower valley.",
+    "consequences": [],
+    "canon_status": "CANON"
+  },
+  {
+    "id": "ev-10",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "chapter_number": 5,
+    "scene_number": 2,
+    "story_day": 7,
+    "story_year": 1,
+    "real_world_timestamp": "2026-09-06T08:06:12.001261",
+    "location_id": "loc-11",
+    "location_name": "Blood Raven Fortress",
+    "participants": [
+      "Patriarch Yan",
+      "Ghost Envoy Mo"
+    ],
+    "event_type": "POLITICAL_CHANGE",
+    "description": "Blood Raven council votes to launch a coordinated assault on Verdant Cloud Sect.",
+    "consequences": [],
+    "canon_status": "CANON"
+  }
+]
