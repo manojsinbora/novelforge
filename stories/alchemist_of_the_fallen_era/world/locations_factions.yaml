@@ -1,0 +1,48 @@
+# World Engine: Locations and Factions
+
+factions:
+  - id: "fac-01"
+    name: "The Ironfang Pack"
+    alignment: "Predatory Warlord Gang"
+    leader_id: "char-004" # Marcus Cole
+    influence: "Northside Logistics District and Highway 9"
+    summary: "A violent horde of early Awakened who consume raw beast hearts, terrorizing survivors and barricading the highway exit."
+
+  - id: "fac-02"
+    name: "St. Jude Clinic Survivor Group"
+    alignment: "Defensive Medical Enclave"
+    leader_id: "char-003" # Dr. Nicholas Ward
+    influence: "Metropolitan Medical Ward 4"
+    summary: "Trapped doctors, nurses, and quarantined patients desperately holding out with barricades and dwindling generators."
+
+  - id: "fac-03"
+    name: "The Mountain Research Directorate (Remnant)"
+    alignment: "Neutral / Pre-Collapse Cold War Defense"
+    leader_id: "None (Automated)"
+    influence: "Blackwood Ridge Bunker 07"
+    summary: "A decommissioned deep-mountain biological fallout facility with independent geothermal power, clean water, and hydroponics."
+
+locations:
+  - id: "loc-01"
+    name: "The Grand Municipal Archives"
+    region: "City Center"
+    danger_level: "High (Miasma Fissure epicenter)"
+    description: "A colossal neo-gothic stone library where subterranean fissures ruptured through the basement stacks."
+
+  - id: "loc-02"
+    name: "St. Jude Central Clinic"
+    region: "Medical District (4.2 miles west of Library)"
+    danger_level: "Severe (Surrounded by mutant packs)"
+    description: "A three-story fortified concrete medical clinic where Eleanor is quarantined in Isolation Ward 4."
+
+  - id: "loc-03"
+    name: "Northside Logistics Depot"
+    region: "Industrial Ring Road"
+    danger_level: "Extremely Lethal (Warlord Stronghold)"
+    description: "A sprawling shipping depot turned into a blood-soaked arena by Ironfang Cole."
+
+  - id: "loc-04"
+    name: "Blackwood Ridge Bunker 07"
+    region: "Pine Mountain Range (28 miles north)"
+    danger_level: "Safehaven (Once cleared)"
+    description: "A hermetically sealed subterranean complex built into granite cliffs, the ultimate objective of Arc 1."

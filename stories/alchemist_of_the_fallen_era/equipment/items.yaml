@@ -1,0 +1,36 @@
+# Item & Equipment Registry
+
+items:
+  - id: "item-001"
+    name: "Torn Vellum Leaf of the Tractatus de Primordialibus"
+    type: "Hermetic Manuscript Leaf"
+    rarity: "Unique Ancient Relic"
+    current_owner: "char-001" # Arthur Vance
+    abilities:
+      - "Contains the hand-drawn geometric diagram of the 'Crucible of Five Humors'."
+      - "Reveals the secret catalytic ratio of salt, quicksilver, and primordial marrow needed to prevent genetic collapse."
+    durability: 60 # Fragile, requires careful preservation
+
+  - id: "item-002"
+    name: "High-Carbon Surgical Dissection Kit"
+    type: "Tool"
+    rarity: "Precision Medical Grade"
+    current_owner: "char-001" # Arthur Vance
+    abilities:
+      - "Allows rapid field harvesting of mutant beast adrenal sacs and spinal lymph without rupturing poison glands."
+
+  - id: "item-003"
+    name: "Vesper Respirator Mask (Makeshift Prototype)"
+    type: "Gear"
+    rarity: "Handcrafted Alchemical Prototype"
+    current_owner: "char-001" # Arthur Vance
+    abilities:
+      - "Combines crushed silver-nitrate charcoal and dried aconite extract to filter 99.4% of airborne primordial miasma."
+
+  - id: "item-004"
+    name: "Eleanor's Stabilizing Tonic (Flask #1)"
+    type: "Consumable Potion"
+    rarity: "Alchemical Draft"
+    current_owner: "char-001"
+    abilities:
+      - "Halts the progression of Eleanor's blood-fever for exactly 72 hours per dose."

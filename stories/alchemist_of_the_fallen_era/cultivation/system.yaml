@@ -1,0 +1,45 @@
+# Progression System: Grimdark Bloodline & Soul Alchemy
+
+system_name: "Primordial Bloodline & Soul Alchemy"
+energy_type: "Primordial Miasma / Prehistoric Vital Aether"
+
+tiers:
+  - tier_order: 1
+    name: "Mortal"
+    sub_tiers: ["Standard Human", "Physically Conditioned", "Inoculated"]
+    power_index_base: 1.0
+    corruption_risk: "Fatal (Miasma poisoning dissolves internal organs within hours)"
+    capabilities: "Normal human biological limitations."
+
+  - tier_order: 2
+    name: "Awakened"
+    sub_tiers: ["Minor Mutation", "Feral Reflexes", "Spliced Organ", "Peak Awakened"]
+    power_index_base: 5.0
+    corruption_risk: "High (50%+ suffer bone spurs, predatory psychosis, muscle tearing)"
+    capabilities: "Enhanced speed (30-40 mph), dense musculature, minor kinetic or elemental release."
+
+  - tier_order: 3
+    name: "Soul-Alchemist"
+    sub_tiers: ["Apothecary Apprentice", "Core Distiller", "Visceral Weaver", "Grand Alchemist"]
+    power_index_base: 25.0
+    corruption_risk: "Controlled (Zero physical degeneration if purity rating >= 92%)"
+    capabilities: "Internal soul-calcification, extraction of beast cores, creation of stable gene-potions, telepathic soul-sense."
+
+  - tier_order: 4
+    name: "Calamity Knight"
+    sub_tiers: ["Iron Sovereign", "Blood Warlord", "Apex Chimera", "Domain Tyrant"]
+    power_index_base: 125.0
+    corruption_risk: "Extreme (Requires continuous soul-stabilization elixirs to avoid turning into mindless behemoths)"
+    capabilities: "Localized bio-domains (shriveling surrounding flora/fauna), sound-breaking speed, bulletproof carapace, devastating soul-strikes."
+
+  - tier_order: 5
+    name: "Demigod"
+    sub_tiers: ["Earthshaker", "Planar Leviathan", "Primordial Sovereign"]
+    power_index_base: 625.0
+    corruption_risk: "Total Ascendant Singularity"
+    capabilities: "Continental geological manipulation, permanent weather inversion, command over millions of lesser mutant beasts."
+
+alchemy_purity_rules:
+  crude_beast_blood_consumption: "Purity 20-40%: 80% chance of permanent madness or grotesque mutation."
+  basic_heat_distillation: "Purity 50-65%: Minor side effects, temporary withdrawal."
+  arthurs_14th_century_hermetic_catalysis: "Purity 90-98%: Flawless cell integration, permanent stat leap with zero degeneration."

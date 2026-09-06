@@ -1,0 +1,66 @@
+# Arc 1 Outline: The Broken City Exodus (Chapters 1–40)
+
+arc:
+  id: "arc-01"
+  title: "Arc 1: The Broken City Exodus"
+  target_chapters: 40
+  target_words_per_chapter: 1800
+  status: "ACTIVE"
+  premise: "Arthur Vance escapes the collapsing Grand Library, navigates the mutating city to rescue his sister Eleanor from St. Jude Clinic, unites with a convoy of surviving scholars, and defeats the warlord Ironfang to establish a sanctuary at Blackwood Bunker."
+
+chapter_blocks:
+  - block: "Phase 1: The Library Fall & The First Catalyst (Chapters 1–8)"
+    summary: "Day Zero. The miasma erupts beneath the Grand Library. Arthur synthesizes his first crude respirator mask, dissects his first mutant hound using medical knowledge, and secures the 14th-century codex leaf before stepping into the fog."
+    chapters:
+      - 1: "The Cracking Stacks — Subterranean tremors shatter the library basement; purple-gray miasma seeps through the floorboards; patrons cough blood."
+      - 2: "The 14th-Century Codex — Arthur grabs the vellum leaf of the Tractatus; uses silver-nitrate and lab charcoal to craft a makeshift respirator."
+      - 3: "Flesh and Chitin — An administrative guard mutates into a blind, razor-clawed abomination; Arthur uses anatomy to slit its carotid artery from a blindspot."
+      - 4: "The First Autopsy — Arthur dissects the beast's thoracic cavity in the archives office, discovering the calcified 'Primordial Bile Sac'."
+      - 5: "Distillation Under Fire — Using Bunsen burners and chemical glassware, Arthur extracts a clear stabilizing tincture; inoculates himself."
+      - 6: "The Screaming Boulevard — Arthur steps into the city streets; abandoned cars, rioting mobs, and the sirens cutting out forever."
+      - 7: "The Hound Pack — Stray city dogs mutated with oversized jaws corner survivors in an alley; Arthur tests an acidic alchemical flash-bomb."
+      - 8: "The Message from Ward 4 — Arthur reaches a functioning payphone relay; receives a static-filled voice message from Eleanor at St. Jude Clinic."
+
+  - block: "Phase 2: The Infiltration of St. Jude Clinic (Chapters 9–18)"
+    summary: "Crossing the 4-mile quarantine corridor. Arthur infiltrates the besieged hospital, meets Dr. Nicholas Ward, and synthesizes the first batch of Eleanor's Stabilizing Tonic."
+    chapters:
+      - 9: "The Red Mist Corridor — Arthur enters the medical district where military barricades were overrun by shambling chimera husks."
+      - 10: "The Roof Runner — Encounter with Vera Bennett, an ex-military scout surveying the quarantine lines."
+      - 11: "Barricade at St. Jude — Dr. Ward and three nurses defend the emergency entrance with oxygen tanks and makeshift spear traps."
+      - 12: "Isolation Ward 4 — Arthur reunites with Eleanor; her veins are pulsing with iridescent blue starlight as fever rages."
+      - 13: "The Clinical Diagnostic — Dr. Ward admits modern antibiotics are useless; Arthur reveals the codex theory of primordial bloodline resonance."
+      - 14: "The Hospital Laboratory Siege — Arthur locks himself in the histology lab with Dr. Ward to brew Eleanor's first stabilization tonic."
+      - 15: "The Chimera in the ICU — A two-headed mutated patient breaks through the ventilation shafts into the lab."
+      - 16: "Precision Scalpel — Arthur exploits the creature's asymmetrical nerve ganglia, killing it with zero noise."
+      - 17: "The First Sip — Arthur administers the stabilizing tonic to Eleanor; her violent convulsions cease, and the fever breaks."
+      - 18: "The Radio Warning — A broadcast crackles over the police band: 'Ironfang has seized the North Highway bridge; all refugees must surrender their supplies.'"
+
+  - block: "Phase 3: The Gathering of the Convoy (Chapters 19–28)"
+    summary: "Preparing for the 28-mile exodus. Arthur outfits two armored medical transport vans, synthesizes field anti-miasma filters for the survivors, and encounters the brutal taxation of Ironfang's scouts."
+    chapters:
+      - 19: "The Council of Survivors — 24 civilians, 4 nurses, Dr. Ward, and Vera plan the escape route to Blackwood Ridge Bunker 07."
+      - 20: "Armoring the Ambulances — Arthur uses alchemical resin to reinforce the vehicle tires against acid-spitting beast fluids."
+      - 21: "The Ironfang Tax Collector — Three armed scouts with mutated wolf-fangs arrive at the clinic demanding 'tribute'."
+      - 22: "A Quiet Poison — Arthur offers the scouts a tainted bottle of 'purified spirit liquor'; they collapse with muscle paralysis within minutes."
+      - 23: "Interrogation in the Basement — Learning Ironfang's troop numbers, weapons cache, and hostage warehouse."
+      - 24: "The Scout's Dissection — Arthur analyzes the scouts' mutated muscle fibers, discovering the fatal weakness of their unrefined bloodline."
+      - 25: "The Departure at Dusk — The two-van convoy rolls out into the dense night fog under blacked-out headlights."
+      - 26: "The Ambush at the Overpass — Mutated avian predators divebomb the convoy from the highway signs; Vera provides covering sniper fire."
+      - 27: "Alchemical Smoke — Arthur deploys a dense phosphorus-sulfur screen, choking the flying beasts' sensitive respiratory tracts."
+      - 28: "The Outskirts Checkpoint — Reaching the northern industrial gate; Ironfang's fortified roadblocks block the mountain road."
+
+  - block: "Phase 4: Clash of the Warlord & The Mountain Sanctuary (Chapters 29–40)"
+    summary: "The final showdown of Arc 1. Arthur outmaneuvers and executes Ironfang using targeted alchemical compounds, leading the convoy safely into Blackwood Ridge Bunker 07."
+    chapters:
+      - 29: "The Logistics Arena — Ironfang Marcus Cole holds 100 hostages in the shipping depot, forcing them to fight beasts for sport."
+      - 30: "The Parley — Arthur steps into the depot disguised as an ordinary apothecary offering 'beast-evolution elixirs'."
+      - 31: "The Tyrant's Arrogance — Ironfang laughs at Arthur's thin frame, demanding Arthur demonstrate the elixir on himself."
+      - 32: "The Trojan Draught — Arthur hands Ironfang a concentrated 'Apex Catalyst' that triggers an uncontrolled cellular storm."
+      - 33: "The Eruption — Ironfang drinks the draught; his muscles swell to monstrous proportions, but his bone marrow begins calcifying."
+      - 34: "Depot in Chaos — Vera and the convoy breach the outer fences, freeing the hostages as Ironfang's gang panics."
+      - 35: "The Duel in the Rain — Arthur faces the berserk Ironfang, using his knowledge of the beast's flawed muscle kinetics to dodge every lethal blow."
+      - 36: "Severing the Core — Arthur drives an alchemical glass spike into Ironfang's exposed primordial nerve bundle; the warlord shatters like glass."
+      - 37: "Harvesting the Beast Core — Arthur harvests Ironfang's pristine, crystallized heart-core—his first Tier 2 Awakened reagent."
+      - 38: "The Ascent into the Pines — The enlarged convoy leaves the smoking city behind, ascending the winding Blackwood mountain road."
+      - 39: "Breaching Bunker 07 — Vera enters the Cold War access codes; the blast doors grind open, revealing clean air and humming generators."
+      - 40: "The Laboratory Founded — Arthur sets down his notebooks in the underground research facility; Eleanor smiles from her bed. Arc 1 Climax & Setup for Arc 2."

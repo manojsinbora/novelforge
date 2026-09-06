@@ -1,0 +1,52 @@
+# Plot Engine: Promises, Mysteries, and Foreshadowing
+
+promises:
+  - id: "prom-001"
+    title: "Curing Eleanor's Blood-Fever"
+    introduced_chapter: 1
+    expected_payoff_min: 70
+    expected_payoff_max: 120
+    status: "OPEN"
+    description: "Arthur vowed that no matter how monstrous the world becomes, he will synthesize a permanent cure for Eleanor."
+
+  - id: "prom-002"
+    title: "Reaching Blackwood Bunker 07"
+    introduced_chapter: 8
+    expected_payoff_min: 35
+    expected_payoff_max: 40
+    status: "ACTIVE"
+    description: "Arthur and the survivor convoy must breach Ironfang's blockade to reach the secure mountain laboratory."
+
+  - id: "prom-003"
+    title: "Avenge the Library Guards against Ironfang"
+    introduced_chapter: 14
+    expected_payoff_min: 36
+    expected_payoff_max: 39
+    status: "ACTIVE"
+    description: "Ironfang executed Arthur's former library colleagues who sought asylum at the depot; Arthur plans a calculated alchemical extermination."
+
+mysteries:
+  - id: "myst-001"
+    title: "The True Nature of Eleanor's Latent Vessel"
+    status: "UNRESOLVED"
+    author_known: true
+    reader_known: false
+    protagonist_known: false
+    description: "Eleanor's chronic illness is not a genetic disease, but a dormant primordial bloodline resonance that awakened prematurely when the veins ruptured."
+
+  - id: "myst-002"
+    title: "Who Sealed Earth's Primordial Veins 10,000 Years Ago?"
+    status: "UNRESOLVED"
+    author_known: true
+    reader_known: false
+    protagonist_known: false
+    description: "The 14th-century hermetic alchemists were not inventors; they were copyists deciphering the surviving tablets of the First Human Dynasty."
+
+foreshadowing:
+  - id: "fore-001"
+    seed_chapter: 3
+    clue_text: "Arthur notices the subterranean miasma flowing *away* from certain ancient brass water pipes in the library basement."
+    intended_false_meaning: "The metal pipes are coated in an industrial repellent."
+    true_meaning: "The library was built directly on top of an ancient sovereign binding anchor made of orichalcum alloy."
+    planned_payoff_chapter: 92
+    status: "SEEDED"
