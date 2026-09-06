@@ -142,7 +142,7 @@ If that purple fog reached her ward, the fever would overwhelm her system. He ha
 
 The purple haze was already swirling around his knees.
 
-> *[Pending Quota Reset: Scene 11 - Medium shot of Arthur rolling up his smock sleeve in swirling purple mist, resolute analytical expression.]*
+![Arthur Vance rolling up his sleeves in swirling purple mist](../illustrations/chapter_01/scene_11_arthur_resolute_1788713875588.jpg)
 
 ***
 
@@ -154,7 +154,7 @@ He moved with brisk efficiency, though he couldn't help muttering complaints und
 
 He scooped two generous heaps of crushed charcoal into the canister. Charcoal was simple, but nothing beat it for trapping heavy toxins. Next, he soaked a thick cotton cloth in vinegar to neutralize the acidic sting of the vapor, packed it firmly over the carbon, and screwed the brass mesh cap shut.
 
-> *[Pending Quota Reset: Scene 12 - Arthur at his workbench packing crushed charcoal and vinegar-soaked cloth into the brass respirator canister.]*
+![Arthur Vance crafting the respirator filter at his workbench](../illustrations/chapter_01/scene_12_workbench_filter_1788713987619.jpg)
 
 ***
 
@@ -170,7 +170,7 @@ The air entered his lungs cool, dry, and clean. No jasmine rot. No metallic burn
 
 He slipped the ancient parchment fragment into an oiled leather pocket inside his smock, along with his pocket watch. Then he reached under the workbench and picked up his favorite tool: a fourteen-inch, drop-forged steel pipe wrench with a reassuringly heavy grip.
 
-> *[Pending Quota Reset: Scene 13 - Arthur cinching the brass respirator mask tight behind his ears and hefting his 14-inch heavy steel pipe wrench.]*
+![Arthur Vance equipped with brass respirator mask and heavy pipe wrench](../illustrations/chapter_01/scene_13_mask_and_wrench_1788714009601.jpg)
 
 ***
 
@@ -182,7 +182,7 @@ Before he could take three steps toward the back exit, the heavy oak door leadin
 
 The iron bolt sheared clean off. The wood splintered into kindling, and a monstrous shape forced its way through the jagged opening into the cellar.
 
-> *[Pending Quota Reset: Scene 14 - Heavy oak cellar door bursting inward, iron bolt shearing off as a massive shadow crashes through.]*
+![The oak cellar door splintering inward under monstrous impact](../illustrations/chapter_01/scene_14_door_splinters_1788714157571.jpg)
 
 ***
 
@@ -198,7 +198,7 @@ Arthur stood frozen behind the workbench.
 
 The mutated guard took a heavy, dragging step forward, its four-inch claws carving deep grooves into the stone flagstones.
 
-> *[Pending Quota Reset: Scene 15 - Mutated Bob looming 8 feet tall: jagged needle teeth, blind milky eyes, black reptile scales on right shoulder, exposed pale cartilage throat.]*
+![Mutated Bob revealed in the library aisle with black scales and needle teeth](../illustrations/chapter_01/scene_15_mutated_bob_1788714184301.jpg)
 
 ***
 
@@ -210,7 +210,7 @@ Right by his boot was an open sack of quicklime—the dry white masonry powder t
 
 Arthur had no magic powers, and he certainly had no divine martial arts. But he knew what happened when strong acid hit dry masonry lime.
 
-> *[Pending Quota Reset: Scene 16 - Arthur's calculated gaze shifting between the open sack of dry quicklime by his boot and the glass jugs of muriatic acid on the shelf.]*
+![Arthur formulating the chemical reaction with quicklime and muriatic acid](../illustrations/chapter_01/scene_16_quicklime_acid_setup_1788714204892.jpg)
 
 ***
 
@@ -218,7 +218,7 @@ Arthur had no magic powers, and he certainly had no divine martial arts. But he 
 
 Before doing anything rash, Arthur carefully picked up a rare 1740 municipal ledger from the lower counter and moved it two shelves higher, out of the splash zone. *Acid stains never come out of calfskin.*
 
-> *[Pending Quota Reset: Scene 17 - Arthur calmly lifting a rare antique calfskin volume to safety while the monster prowls in the background.]*
+![Arthur sheltering a rare 1740 calfskin ledger to a higher shelf](../illustrations/chapter_01/scene_17_calfskin_ledger_1788714348254.jpg)
 
 ***
 
@@ -230,7 +230,7 @@ A thick pile of white powder spilled across the damp stones directly in front of
 
 The rustle of the canvas sack immediately caught the monster's ear. It let out a deafening screech and lunged across the aisle, claws raised to shred him.
 
-> *[Pending Quota Reset: Scene 18 - Arthur kicking over the sack of white quicklime powder as the mutated beast lunges forward with claws outstretched.]*
+![Arthur kicking over the quicklime sack as the beast lunges](../illustrations/chapter_01/scene_18_quicklime_spill_lunge_1788714369248.jpg)
 
 ***
 
@@ -242,7 +242,7 @@ Arthur hoisted the heavy jug of acid and hurled it straight down into the white 
 
 The glass shattered. The acid flooded the dry powder.
 
-> *[Pending Quota Reset: Scene 19 - Glass jug of muriatic acid shattering into the pile of quicklime in dynamic comic impact framing.]*
+![Glass jug of muriatic acid shattering into the quicklime mound](../illustrations/chapter_01/scene_19_acid_jug_smash_1788714390069.jpg)
 
 ***
 
@@ -252,7 +252,7 @@ The reaction was instantaneous, violent, and utterly unforgiving. A roaring, boi
 
 The monster charged headfirst into the blinding cloud.
 
-> *[Pending Quota Reset: Scene 20 - Roaring, boiling explosion of white chemical steam erupting between the towering bookshelves.]*
+![Roaring geyser of boiling caustic steam erupting between the bookshelves](../illustrations/chapter_01/scene_20_caustic_geyser_1788714411005.jpg)
 
 ***
 
@@ -264,7 +264,7 @@ It took a single, massive breath of the boiling fumes. The caustic mist seared s
 
 The eight-foot beast crashed face-first onto the stones, its hind legs twitching twice before going completely, beautifully still.
 
-> *[Pending Quota Reset: Scene 21 - The eight-foot scaled beast collapsing dead face-first onto the stone floor as steam swirls around the counters.]*
+![The eight-foot beast defeated and lifeless on the stone floor](../illustrations/chapter_01/scene_21_beast_defeated_1788714433209.jpg)
 
 ***
 
@@ -272,7 +272,7 @@ The eight-foot beast crashed face-first onto the stones, its hind legs twitching
 
 Arthur lowered his wrench, tapped the stopwatch, and nodded. "Quicklime and pipe acid. Total elapsed time: three point eight seconds. Caloric expenditure: minimal."
 
-> *[Pending Quota Reset: Scene 22 - Arthur tapping the stem of his pocket watch with his heavy wrench lowered, inspecting the fallen beast with deadpan satisfaction.]*
+![Arthur checking his stopwatch over the fallen beast](../illustrations/chapter_01/scene_22_arthur_stopwatch_1788714452348.jpg)
 
 ***
 
@@ -288,7 +288,7 @@ Then they froze.
 
 Through the drifting white smoke, they saw the eight-foot, black-scaled nightmare sprawled dead on the flagstones.
 
-> *[Pending Quota Reset: Scene 23 - Three terrified survivors bursting through the rear door, freezing in shock as they gaze upon the fallen behemoth.]*
+![Three terrified survivors tumbling through the rear door in disbelief](../illustrations/chapter_01/scene_23_survivors_arrive_1788714478069.jpg)
 
 ***
 
