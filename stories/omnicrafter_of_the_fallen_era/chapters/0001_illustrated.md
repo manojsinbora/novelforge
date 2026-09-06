@@ -5,13 +5,10 @@
 
 ## Visual Concept Anchors
 
-````carousel
-![Arthur Vance Concept Sheet](../illustrations/chapter_01/anchor_arthur_vance_1788693744605.jpg)
-<!-- slide -->
-![Library Sub-Basement Archive](../illustrations/chapter_01/anchor_library_basement_1788693760844.jpg)
-<!-- slide -->
-![Barnaby the Camp Rat](../illustrations/chapter_01/anchor_barnaby_rat_1788693776630.jpg)
-````
+| **Arthur Vance (Protagonist)** | **Grand Municipal Library Archive** | **Barnaby the Camp Rat** |
+| :---: | :---: | :---: |
+| ![Arthur Vance Concept Sheet](../illustrations/chapter_01/anchor_arthur_vance_1788693744605.jpg) | ![Library Sub-Basement Archive](../illustrations/chapter_01/anchor_library_basement_1788693760844.jpg) | ![Barnaby the Camp Rat](../illustrations/chapter_01/anchor_barnaby_rat_1788693776630.jpg) |
+
 
 ---
 
