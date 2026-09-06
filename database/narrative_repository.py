@@ -29,6 +29,8 @@ class NarrativeRepository:
         self._init_schema()
         from novelforge.database.power_repository import PowerRepository
         self.power_repo = PowerRepository(db_path=self.db_path, conn=self.conn)
+        from novelforge.database.plot_repository import PlotRepository
+        self.plot_repo = PlotRepository(db_path=self.db_path, conn=self.conn)
 
     def _init_schema(self):
         with self.conn:

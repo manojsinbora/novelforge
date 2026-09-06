@@ -81,6 +81,12 @@
         </div>
         <ul class="nav-links">
             <li class="nav-item active" onclick="showTab('tab-dashboard')">📊 Dashboard</li>
+            <li class="nav-item" onclick="showTab('tab-plot-threads')">📜 Plot Threads</li>
+            <li class="nav-item" onclick="showTab('tab-mysteries')">🕵️ Mysteries & Secrets</li>
+            <li class="nav-item" onclick="showTab('tab-promises')">🤝 Promises & Debt</li>
+            <li class="nav-item" onclick="showTab('tab-foreshadowing')">🔮 Foreshadowing & Twists</li>
+            <li class="nav-item" onclick="showTab('tab-char-arcs')">🎭 Character Arcs</li>
+            <li class="nav-item" onclick="showTab('tab-story-health')">📈 Story Health & QA</li>
             <li class="nav-item" onclick="showTab('tab-power')">⚡ Power Systems</li>
             <li class="nav-item" onclick="showTab('tab-combat')">⚔️ Combat Simulator</li>
             <li class="nav-item" onclick="showTab('tab-equipment')">🛡️ Equipment & Relics</li>
@@ -94,7 +100,7 @@
         </ul>
         <div style="padding: 20px; border-top: 1px solid var(--border-color); font-size: 0.8rem; color: var(--text-secondary);">
             Persistence: SQLite / PG<br>
-            Version: 3.0.0 (Phase 3 Power Engine)
+            Version: 4.0.0 (Phase 4 Plot Engine)
         </div>
     </div>
 
@@ -403,6 +409,274 @@ Loading state snapshot at Chapter 1...
                             </tr>
                         </tbody>
                     </table>
+                </div>
+            </div>
+
+            <!-- PHASE 4 TABS -->
+            <!-- 1. PLOT THREADS VIEW -->
+            <div id="tab-plot-threads" class="tab-view">
+                <div class="card">
+                    <div class="card-header">
+                        <span>📜 Plot Threads & Subplot Registry</span>
+                        <span class="tag tag-canon">5 Active Threads</span>
+                    </div>
+                    <p style="color: var(--text-secondary); margin-bottom: 15px;">
+                        Manage primary story spine, faction intrigues, revenge arcs, and romance threads across 5 narrative horizons.
+                    </p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Thread Name</th>
+                                <th>Type</th>
+                                <th>State</th>
+                                <th>Urgency</th>
+                                <th>Introduced</th>
+                                <th>Target Climax</th>
+                                <th>Associated Entities</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Rebuild Fallen Heaven Heritage</strong></td>
+                                <td><span class="tag tag-realm">MAIN_PLOT</span></td>
+                                <td><span class="tag tag-canon">ACTIVE</span></td>
+                                <td>CRITICAL</td>
+                                <td>Ch. 1</td>
+                                <td>Ch. 500</td>
+                                <td>Lin Chen, Fallen Heaven Sect</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Lin Xia Sovereign Physique Awakening</strong></td>
+                                <td><span class="tag tag-realm">SUBPLOT_CHARACTER</span></td>
+                                <td><span class="tag tag-canon">ACTIVE</span></td>
+                                <td>HIGH</td>
+                                <td>Ch. 3</td>
+                                <td>Ch. 45</td>
+                                <td>Lin Xia, Celestial Temple</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Blood Raven Sect Subterranean Infiltration</strong></td>
+                                <td><span class="tag tag-realm">FACTION_WAR</span></td>
+                                <td><span class="tag tag-canon">ACTIVE</span></td>
+                                <td>URGENT</td>
+                                <td>Ch. 5</td>
+                                <td>Ch. 20</td>
+                                <td>Ghost Envoy Mo, Elder Han</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Song Clan Resource Monopoly Spar</strong></td>
+                                <td><span class="tag tag-realm">RIVALRY</span></td>
+                                <td><span class="tag tag-canon">RESOLVED</span></td>
+                                <td>MEDIUM</td>
+                                <td>Ch. 2</td>
+                                <td>Ch. 12</td>
+                                <td>Song Yu, Lin Chen</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Identity of the Ancient Regressor</strong></td>
+                                <td><span class="tag tag-realm">MYSTERY</span></td>
+                                <td><span class="tag tag-canon">DORMANT</span></td>
+                                <td>LOW</td>
+                                <td>Ch. 1</td>
+                                <td>Ch. 150</td>
+                                <td>Lin Chen, Stone Relic</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 2. MYSTERIES & SECRETS VIEW -->
+            <div id="tab-mysteries" class="tab-view">
+                <div class="card">
+                    <div class="card-header">
+                        <span>🕵️ Fair-Play Mystery Engine & Epistemic Matrix</span>
+                        <div>
+                            <span class="tag tag-canon">Epistemic Access: Masked for Non-Author</span>
+                        </div>
+                    </div>
+                    <p style="color: var(--text-secondary); margin-bottom: 15px;">
+                        Tracks clues, red herrings, deduction chains, and canonical secrets. The hidden truth is strictly masked from agent prompts until the protagonist makes canonical deductions.
+                    </p>
+                    <div class="char-grid">
+                        <div class="char-card">
+                            <div style="font-weight: bold; font-size: 1.1rem; margin-bottom: 6px;">Fall of Fallen Heaven Sect</div>
+                            <div style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px;">Category: HISTORICAL_EVENT | Status: ACTIVE</div>
+                            <div style="font-size: 0.85rem; color: var(--accent-purple); margin-bottom: 8px;">
+                                Reader Solvability: 42% (Fair-Play Clues: 3/5 seeded)
+                            </div>
+                            <div style="font-size: 0.8rem; background: #0f172a; padding: 8px; border-radius: 4px; margin-bottom: 8px;">
+                                <strong>Surface Question:</strong> Why did the invincible 9th Peak shatter overnight?
+                            </div>
+                            <div style="font-size: 0.8rem; background: #1e293b; padding: 8px; border-radius: 4px; color: var(--accent-blue);">
+                                <strong>Canonical Truth:</strong> [PROTECTED CANONICAL TRUTH — Visible to Author Only]
+                            </div>
+                        </div>
+                        <div class="char-card">
+                            <div style="font-weight: bold; font-size: 1.1rem; margin-bottom: 6px;">Identity of the Sect Traitor</div>
+                            <div style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px;">Category: IDENTITY | Status: PROGRESSING</div>
+                            <div style="font-size: 0.85rem; color: var(--accent-purple); margin-bottom: 8px;">
+                                Reader Solvability: 65% (Fair-Play Clues: 4/4 seeded)
+                            </div>
+                            <div style="font-size: 0.8rem; background: #0f172a; padding: 8px; border-radius: 4px; margin-bottom: 8px;">
+                                <strong>Surface Question:</strong> Who bypassed the Mountain Guard Array during the eclipse?
+                            </div>
+                            <div style="font-size: 0.8rem; background: #1e293b; padding: 8px; border-radius: 4px; color: var(--accent-blue);">
+                                <strong>Canonical Truth:</strong> [PROTECTED CANONICAL TRUTH — Visible to Author Only]
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. PROMISES & DEBT VIEW -->
+            <div id="tab-promises" class="tab-view">
+                <div class="card">
+                    <div class="card-header">
+                        <span>🤝 Story Promise Engine & Narrative Debt</span>
+                        <span class="tag tag-realm">Promise Debt: 1 Overdue Flag</span>
+                    </div>
+                    <p style="color: var(--text-secondary); margin-bottom: 15px;">
+                        Implicit and explicit contracts made with the reader. Tracks scope, progress, deadline chapters, and triggers warnings when payoff is dangerously overdue.
+                    </p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Promise Title</th>
+                                <th>Category</th>
+                                <th>Status</th>
+                                <th>Promised At</th>
+                                <th>Deadline</th>
+                                <th>Debt Penalty</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lin Chen vows to cure Lin Xia's meridians</td>
+                                <td>CHARACTER_VOW</td>
+                                <td><span class="tag tag-canon">PROGRESSING</span></td>
+                                <td>Ch. 3</td>
+                                <td>Ch. 25</td>
+                                <td>0 (On Schedule)</td>
+                            </tr>
+                            <tr>
+                                <td>Confrontation with Song Clan Patriarch</td>
+                                <td>REVENGE_PAYOFF</td>
+                                <td><span class="tag tag-canon">OVERDUE</span></td>
+                                <td>Ch. 4</td>
+                                <td>Ch. 15</td>
+                                <td><strong style="color: var(--accent-red);">+15 Debt (Overdue by 5 Chs)</strong></td>
+                            </tr>
+                            <tr>
+                                <td>True Origin of Regression Token Reveal</td>
+                                <td>LORE_DISCLOSURE</td>
+                                <td><span class="tag tag-realm">PENDING</span></td>
+                                <td>Ch. 1</td>
+                                <td>Ch. 120</td>
+                                <td>0 (Distant Horizon)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 4. FORESHADOWING & TWISTS VIEW -->
+            <div id="tab-foreshadowing" class="tab-view">
+                <div class="card">
+                    <div class="card-header">
+                        <span>🔮 Foreshadowing Seed Network & Twist Logic</span>
+                    </div>
+                    <p style="color: var(--text-secondary); margin-bottom: 15px;">
+                        Tracks planting, reinforcement, and payoff of narrative seeds. Automatically audits clue subtlety to prevent heavy-handed telegraphing or arbitrary out-of-nowhere twists.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-label">Total Seeds Planted</div>
+                            <div class="stat-value">14</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Reinforced in Transit</div>
+                            <div class="stat-value">8</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Harvested Payoffs</div>
+                            <div class="stat-value">5</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Twist Plausibility Score</div>
+                            <div class="stat-value" style="color: var(--accent-green);">94%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. CHARACTER ARCS VIEW -->
+            <div id="tab-char-arcs" class="tab-view">
+                <div class="card">
+                    <div class="card-header">
+                        <span>🎭 17 Character Arc Archetypes & Milestones</span>
+                    </div>
+                    <div class="char-grid">
+                        <div class="char-card">
+                            <div style="font-weight: bold; font-size: 1.1rem; margin-bottom: 6px;">Lin Chen</div>
+                            <div style="font-size: 0.85rem; color: var(--accent-purple); margin-bottom: 8px;">Arc: DISILLUSIONMENT_TO_TRANSCENDENCE</div>
+                            <p style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 8px;">
+                                <strong>Lie Believed:</strong> "Survival requires absolute isolation and trusting no one."<br>
+                                <strong>Truth to Realize:</strong> "True cultivation dominion requires protecting those worthy of trust."
+                            </p>
+                            <div>
+                                <span class="tag tag-canon">Phase: RESISTANCE</span>
+                                <span class="tag tag-realm">Milestone 2/6 Completed</span>
+                            </div>
+                        </div>
+                        <div class="char-card">
+                            <div style="font-weight: bold; font-size: 1.1rem; margin-bottom: 6px;">Lin Xia</div>
+                            <div style="font-size: 0.85rem; color: var(--accent-purple); margin-bottom: 8px;">Arc: AWAKENING_OF_AGENCY</div>
+                            <p style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 8px;">
+                                <strong>Lie Believed:</strong> "I am merely a burden to my brother."<br>
+                                <strong>Truth to Realize:</strong> "My celestial sovereign bloodline can shatter mountains."
+                            </p>
+                            <div>
+                                <span class="tag tag-canon">Phase: CALL_TO_ACTION</span>
+                                <span class="tag tag-realm">Milestone 1/5 Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6. STORY HEALTH VIEW -->
+            <div id="tab-story-health" class="tab-view">
+                <div class="card">
+                    <div class="card-header">
+                        <span>📈 Quantitative Story Health & Narrative QA</span>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-label">Composite Health Score</div>
+                            <div class="stat-value" style="color: var(--accent-green);">88 / 100</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Pacing Dynamic Balance</div>
+                            <div class="stat-value">91% (Good Tension Curve)</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Active Promise Debts</div>
+                            <div class="stat-value" style="color: var(--accent-red);">1 Flagged</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Orphaned Seeds Detected</div>
+                            <div class="stat-value">0</div>
+                        </div>
+                    </div>
+                    <div style="background: var(--bg-card); padding: 18px; border-radius: 8px; margin-top: 15px;">
+                        <h4 style="color: var(--accent-blue); margin-bottom: 8px;">Story Doctor Diagnostics & Recommendations</h4>
+                        <ul style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.7; padding-left: 20px;">
+                            <li>[PACING] Chapters 16–18 maintain excellent rising action leading toward the sect subterranean tournament.</li>
+                            <li>[DEBT RESOLUTION] Resolve the Song Clan Patriarch feud by Chapter 22 to prevent narrative stagnation.</li>
+                            <li>[FAIR-PLAY AUDIT] The 4th clue for the Traitor Elder mystery must be seeded before Chapter 25 climax.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 

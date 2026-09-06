@@ -1,0 +1,52 @@
+[
+  {
+    "id": "b23323f9-a2da-46cc-ba7a-e3da3b94dd10",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "title": "Fall of the Fallen Heaven Sect",
+    "question": "Why did the invincible 9th Peak shatter in a single night 300 years ago?",
+    "hidden_truth": "The Sect Patriarch deliberately deactivated the protective formation to seal an outer god entering through his own consciousness.",
+    "visible_clues": [],
+    "false_leads": [],
+    "true_leads": [],
+    "suspects": [],
+    "theories": [],
+    "reveal_plan": "Discovered through ancestral tablets in Peak 9 ruins",
+    "reveal_conditions": [],
+    "resolution": "",
+    "status": "UNSOLVED",
+    "importance": "CORE",
+    "intended_reader_suspicion": "",
+    "epistemic_knowledge": {
+      "AUTHOR": "KNOWN_TRUE",
+      "SYSTEM": "KNOWN_TRUE",
+      "READER": "UNKNOWN",
+      "PROTAGONIST": "UNKNOWN"
+    },
+    "created_at": "2026-09-06T08:25:24.705738"
+  },
+  {
+    "id": "8c7a1ff2-73f1-48da-a2db-2434d510b7a9",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "title": "Identity of the Sect Traitor",
+    "question": "Who provided the Blood Raven vanguard with the mountain array bypass talisman?",
+    "hidden_truth": "Elder Han traded the formation token in exchange for a Tier 3 Life-Extension Pill from Patriarch Yan.",
+    "visible_clues": [],
+    "false_leads": [],
+    "true_leads": [],
+    "suspects": [],
+    "theories": [],
+    "reveal_plan": "Exposed during outer disciplinary tribunal",
+    "reveal_conditions": [],
+    "resolution": "",
+    "status": "UNSOLVED",
+    "importance": "CORE",
+    "intended_reader_suspicion": "",
+    "epistemic_knowledge": {
+      "AUTHOR": "KNOWN_TRUE",
+      "SYSTEM": "KNOWN_TRUE",
+      "READER": "UNKNOWN",
+      "PROTAGONIST": "UNKNOWN"
+    },
+    "created_at": "2026-09-06T08:25:24.707053"
+  }
+]

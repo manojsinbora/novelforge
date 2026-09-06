@@ -18,7 +18,7 @@ def get_health_status() -> Dict[str, Any]:
     return {
         "status": "healthy",
         "service": "NovelForge AI Narrative Engine",
-        "version": "3.0.0",
+        "version": "4.0.0",
         "features": [
             "Event Sourcing Ledger",
             "Epistemic Knowledge Matrix",
@@ -26,7 +26,8 @@ def get_health_status() -> Dict[str, Any]:
             "Hybrid Cultivation Evaluator",
             "Multi-Tier Model Router",
             "Phase 2: Narrative State Engine & Story Bible System",
-            "Phase 3: Power, Mutation, Cultivation, Progression & Equipment Engine"
+            "Phase 3: Power, Mutation, Cultivation, Progression & Equipment Engine",
+            "Phase 4: Plot, Story Architecture, Arc Planning, Mysteries, Promises & Foreshadowing Engine"
         ]
     }
 
@@ -36,11 +37,12 @@ try:
     from fastapi.middleware.cors import CORSMiddleware
     from novelforge.backend.app.api.v1.narrative_router import router as narrative_router
     from novelforge.backend.app.api.v1.power_router import router as power_router
+    from novelforge.backend.app.api.v1.plot_router import router as plot_router
 
     app = FastAPI(
         title="NovelForge AI Engine API",
-        description="Persistent Narrative State, Story Bible & Power Progression Engine for Long-Form Web Novels",
-        version="3.0.0"
+        description="Persistent Narrative State, Story Bible, Power Progression & Plot Architecture Engine for Long-Form Web Novels",
+        version="4.0.0"
     )
 
     app.add_middleware(
@@ -59,6 +61,8 @@ try:
     app.include_router(narrative_router)
     # Mount Phase 3 power & progression router
     app.include_router(power_router)
+    # Mount Phase 4 plot architecture router
+    app.include_router(plot_router)
 
 except ImportError:
     app = None

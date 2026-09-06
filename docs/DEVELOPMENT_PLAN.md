@@ -44,20 +44,26 @@ This roadmap implements NovelForge AI incrementally. Each phase delivers a testa
   * Full seed data for *"Echoes of the Fallen Heaven"* and 12 automated unit tests.
 * **Exit Criteria:** 100% test pass rate across all 28 automated unit tests; temporal isolation verified; breakthrough invariants verified.
 
-### Phase 4: Multi-Agent Writing & Critique Pipeline (Next Phase)
+### Phase 4: Plot, Story Architecture, Arc Planning, Mysteries, Promises & Foreshadowing Engine (Completed)
+* **Deliverables:**
+  * Complete Long-Term Story Architecture Schemas (`novelforge/schemas/plot_models.py`): MainPlot, StoryMilestone, PlotThread (19 types), CharacterArc (17 archetypes), CharacterArcMilestone, Goal, Conflict, Mystery, MysteryClue, Secret, StoryPromise, ForeshadowingSeed (14 types), PlotTwist, Reversal (9 types), BeatPlan, ScenePlan, ChapterPlan, ArcPlan, NarrativeDependency, NarrativeDebt, StoryHealthReport, ChangeImpactReport.
+  * Relational Database Engine (`novelforge/database/plot_repository.py`): 19 tables in SQLite with full CRUD, temporal querying, and directed dependency traversal.
+  * Service Suite (`novelforge/backend/app/services/`):
+    * `plot_thread_service.py`: Mainline story engine & plot thread manager across 11 lifecycle states.
+    * `character_arc_service.py`: Transformation arc engine, goal tracking, and character conflict matrix.
+    * `mystery_promise_service.py`: Fair-play mystery validation, role-based epistemic masking, and overdue promise debt calculation.
+    * `foreshadowing_twist_service.py`: Clue planting, subtlety quality scoring, and plot twist linking.
+    * `arc_chapter_planning_service.py`: Hierarchical multi-horizon planner (5 Horizons), scene entry/exit state transition validator.
+    * `dependency_impact_service.py`: Downstream change impact analysis and rewrite risk assessment.
+    * `story_health_service.py`: Quantitative story health index (0–100), stagnant subplot detector.
+    * `narrative_context_builder.py`: Relevance-filtered, token-budgeted prompt context builder.
+  * Story Architecture Tool Suite (`novelforge/tools/plot_tools.py`) & REST Router (`novelforge/backend/app/api/v1/plot_router.py`).
+  * Interactive UI Tabs in `novelforge/frontend/dashboard.html` for Plot Threads, Mysteries & Secrets, Promises & Debt, Foreshadowing, Character Arcs, and Story Health.
+  * Full seed data for *"Echoes of the Fallen Heaven"* (`novelforge/scripts/seed_phase_4_plot.py`) and filesystem exports in `novelforge/stories/echoes_of_the_fallen_heaven/plot/`.
+  * Comprehensive automated test suite (`novelforge/tests/test_phase_4_plot_engine.py`): 8 tests covering all 10 core engines. Total test suite passes 36/36 tests with 100% success rate.
+* **Exit Criteria:** Zero-dependency Python 3.9 execution; epistemic masking enforced; fair-play checks verified; promise debts flagged; downstream change impact verified; 100% test pass rate.
 
-### Phase 5: Hybrid Cultivation & Combat Engine
-* Cultivation realm, sub-realm, and technique data structures.
-* Deterministic Python Combat Power Evaluator ("Can A defeat B?").
-* Breakthrough and tribulation event handlers.
-
-### Phase 6: Equipment, Inventory & World Mechanics
-* Inventory tracking and item transfer event handlers.
-* Location hierarchy and spatial travel validation.
-
-### Phase 7: Plot, Promise & Foreshadowing System
-* Long-term promise lifecycle manager and overdue alert engine.
-* Foreshadowing clue disperser and payoff tracking.
+### Phase 5: Multi-Agent Writing & Critique Pipeline (Next Phase)
 
 ### Phase 8: Parallel QA Critic Suite & Revision Loop
 * Fast-path regex/rule checks + Deep-path async parallel critics.

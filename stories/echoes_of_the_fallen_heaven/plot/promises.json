@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ded32214-98cf-4ad1-ab02-e0a7439ece8d",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "description": "Lin Chen vows to cure Lin Xia meridians completely",
+    "promise_type": "CHARACTER_VOW",
+    "introduced_chapter": 3,
+    "importance": "CORE",
+    "expected_payoff_window": 25,
+    "payoff_requirements": [],
+    "related_thread_id": null,
+    "related_mystery_id": null,
+    "status": "OPEN",
+    "payoff_chapter": null,
+    "created_at": "2026-09-06T08:25:24.707698"
+  },
+  {
+    "id": "99de8c8c-3455-4153-963c-40474bb59fd8",
+    "story_id": "echoes-of-fallen-heaven-001",
+    "description": "Confrontation with Song Clan Patriarch",
+    "promise_type": "REVENGE_PAYOFF",
+    "introduced_chapter": 4,
+    "importance": "HIGH",
+    "expected_payoff_window": 10,
+    "payoff_requirements": [],
+    "related_thread_id": null,
+    "related_mystery_id": null,
+    "status": "OPEN",
+    "payoff_chapter": null,
+    "created_at": "2026-09-06T08:25:24.708187"
+  }
+]
