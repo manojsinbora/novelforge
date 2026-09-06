@@ -1,29 +1,30 @@
-# Characters Dossier: The Alchemist of the Fallen Era
+# Characters Dossier: The Omnicrafter of the Fallen Era
 
 characters:
   - id: "char-001"
     name: "Arthur Vance"
-    role: "Protagonist / The Alchemist"
+    role: "Protagonist / The Omnicrafter"
     age: 23
     gender: "Male"
-    tier: "Mortal (Inoculated) -> Soul-Alchemist"
+    tier: "Novice Early -> Novice Peak (Arc 1)"
     personality_traits:
-      - "Quietly self-deprecating (genuinely believes he is ordinary or 'no good')"
-      - "Obsessively thorough (must understand every detail before taking action)"
-      - "Clinical under lethal pressure (treats combat wounds and monsters like anatomical specimens)"
-      - "Fiercely protective of Eleanor"
-    driving_want: "Synthesize a permanent cure for Eleanor's chronic condition and secure a safe laboratory stronghold."
-    core_fear: "Failing his sister and being helpless against brute-force monsters."
+      - "Quietly brilliant, encyclopedic recall of every book he ever cataloged"
+      - "Deep down craves recognition, praise, and respect ('I just want someone to notice I built this!')"
+      - "Perpetually cursed by comedic timing: just as he saves the day, he slips, is out of frame, or a runaway rat knocks over a pipe, and someone else gets the credit"
+      - "Clinical, lethal, and calculating when the fighting starts; never fights fair against stronger enemies"
+    driving_want: "Heal Eleanor, secure Blackwood Bunker, and finally receive legitimate credit as a capable hero."
+    core_fear: "Failing Eleanor, and forever being dismissed as a useless floor-sweeper."
     voice_profile:
-      sentence_cadence: "Analytical, understated, mildly apologetic in conversation, razor-sharp internal deductions"
-      formality_level: 0.7
+      sentence_cadence: "Polite, modest, slightly exasperated when people thank the wrong person, ruthlessly analytical during combat"
+      formality_level: 0.6
       verbal_tics:
-        - "According to the archival footnotes..."
-        - "It's nothing impressive, just basic distillation..."
+        - "According to the 1894 monograph on biomechanics..."
+        - "Wait, no! That wasn't the rat, that was my pressurized nitro-glycol trap—never mind..."
     current_location: "Grand Municipal Library (Chapter 1)"
     equipped_items:
       - "item-001" # Torn Codex Leaf
-      - "item-002" # Field Dissection Scalpel Set
+      - "item-002" # High-Carbon Surgical Kit
+      - "item-005" # The Chimera Frame (Modular Combat Platform Mark I)
 
   - id: "char-002"
     name: "Eleanor Vance"
@@ -32,23 +33,23 @@ characters:
     gender: "Female"
     tier: "Mortal (Latent Sovereign Vessel)"
     personality_traits:
-      - "Observant, perceptive, resilient despite chronic illness"
-      - "Fiercely believes in Arthur even when he doubts himself"
-    driving_want: "Stop being a physical burden to Arthur and help him catalog the new world."
-    core_fear: "Succumbing to her fever and leaving Arthur alone."
+      - "Perceptive, witty, fiercely supportive of Arthur"
+      - "The ONLY person who actually knows Arthur did all the crazy combat feats"
+      - "Frequently tries to correct people ('Arthur did that!'), but bystanders just think she's being a cute, adoring little sister"
+    driving_want: "Survive her fever, support Arthur's engineering work, and make sure he gets the credit he deserves."
+    core_fear: "Succumbing to the primordial resonance before Arthur finishes his cure."
     current_location: "St. Jude Central Clinic, Isolation Ward 4"
 
   - id: "char-003"
     name: "Dr. Nicholas Ward"
-    role: "Allied Scholar / Senior Pharmacologist"
+    role: "Senior Pharmacologist & Clinic Leader"
     age: 58
     gender: "Male"
     tier: "Mortal"
     personality_traits:
-      - "Stubbornly devoted to empirical science, initially skeptical of archaic alchemy"
-      - "Pragmatic surviving medic"
-    driving_want: "Preserve medical equipment and scientific records from the falling city."
-    core_fear: "Humanity slipping into superstitious savagery."
+      - "Gruff, pragmatic doctor who respects empirical results"
+      - "Constantly bewildered by how 'coincidences' keep saving the hospital from mutant beasts"
+    driving_want: "Preserve medical supplies and keep the quarantine patients alive."
     current_location: "St. Jude Central Clinic"
 
   - id: "char-004"
@@ -56,22 +57,31 @@ characters:
     role: "Primary Warlord Antagonist of Arc 1"
     age: 34
     gender: "Male"
-    tier: "Awakened (Peak / Feral Canine Bloodline Graft)"
+    tier: "Intermediate Peak (Feral Beast Graft)"
     personality_traits:
-      - "Sadistic, megalomaniacal, intoxicated by his sudden superhuman strength"
-      - "Rules through fear and public executions"
-    driving_want: "Conquer the northern metropolitan district and enslave doctors to harvest beast cores."
-    core_fear: "Returning to being an ignored warehouse convict."
-    current_location: "Northside Logistics Depot (Warlord Enclave)"
+      - "Brutal, arrogant tyrant who believes brute mutant strength is the only law"
+      - "Terrified of an unknown phantom ('The Ghost Artificer') who is assassinating his lieutenants with impossible weapons"
+    driving_want: "Control the northern highway depot and crush all resistance."
+    current_location: "Northside Logistics Depot"
 
   - id: "char-005"
     name: "Vera Bennett"
     role: "Ex-Military Scout / Convoy Protector"
     age: 27
     gender: "Female"
-    tier: "Awakened (Minor Reflex Mutation)"
+    tier: "Intermediate Early (Reflex Awakening)"
     personality_traits:
-      - "Disciplined, tacurn, tactical, hates chaotic warlords"
-    driving_want: "Safely escort the survivor convoy to Blackwood Ridge Bunker."
-    core_fear: "Losing another squad to chimera ambush."
+      - "Tough, no-nonsense tactical soldier"
+      - "Often accidentally ends up in the heroic pose right as Arthur's traps go off, causing survivors to hail HER as the savior (to her utter confusion)"
+    driving_want: "Safely escort the convoy to Blackwood Ridge Bunker."
     current_location: "Metropolitan Police Auxiliary Barracks"
+
+  - id: "char-006"
+    name: "Barnaby the Camp Rat"
+    role: "Accidental Hero & Running Gag"
+    age: 1
+    gender: "Male"
+    tier: "Mortal Rodent"
+    personality_traits:
+      - "A scruffy gray sewer rat that follows the smell of Arthur's alchemical dried berries"
+      - "Once scurried across a detonator wire, blowing up a charging mutant hound just as Arthur was about to step forward—the clinic now treats Barnaby like a lucky mascot"

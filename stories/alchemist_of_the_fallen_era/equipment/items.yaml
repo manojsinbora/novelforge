@@ -9,7 +9,7 @@ items:
     abilities:
       - "Contains the hand-drawn geometric diagram of the 'Crucible of Five Humors'."
       - "Reveals the secret catalytic ratio of salt, quicksilver, and primordial marrow needed to prevent genetic collapse."
-    durability: 60 # Fragile, requires careful preservation
+    durability: 60
 
   - id: "item-002"
     name: "High-Carbon Surgical Dissection Kit"
@@ -17,7 +17,7 @@ items:
     rarity: "Precision Medical Grade"
     current_owner: "char-001" # Arthur Vance
     abilities:
-      - "Allows rapid field harvesting of mutant beast adrenal sacs and spinal lymph without rupturing poison glands."
+      - "Allows rapid field harvesting of mutant beast adrenal sacs, tendons, and spinal lymph without rupturing poison glands."
 
   - id: "item-003"
     name: "Vesper Respirator Mask (Makeshift Prototype)"
@@ -34,3 +34,14 @@ items:
     current_owner: "char-001"
     abilities:
       - "Halts the progression of Eleanor's blood-fever for exactly 72 hours per dose."
+
+  - id: "item-005"
+    name: "The Chimera Frame (Modular Combat Platform Mark I)"
+    type: "Modular Combat Weapon"
+    rarity: "Artificer Masterwork"
+    current_owner: "char-001" # Arthur Vance
+    abilities:
+      - "Modular Receiver: Can swap between high-velocity flechette carbine, pneumatic explosive harpoon, and high-frequency vibration blade."
+      - "Beast-Core Socket: Powers muzzle velocity using harvested mutant cores."
+      - "Array Cartridge Slot: Can chamber etched brass disks for elemental burst discharges (frost, corrosive acid, kinetic shock)."
+    evolution_potential: "Evolves across all 7 Awakening levels into a heavy shoulder railgun, then a spatial-cleaving armament."
