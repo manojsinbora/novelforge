@@ -29,16 +29,22 @@ This roadmap implements NovelForge AI incrementally. Each phase delivers a testa
   * Seed Story: *"Echoes of the Fallen Heaven"* (Cultivation + Regression + Mystery).
 * **Exit Criteria:** 100% test pass rate across 16 unit tests; invariant assertions verified; filesystem export verified.
 
-### Phase 3: Hierarchical Planning (Saga -> Arc -> Chapter) (Next Phase)
+### Phase 3: Power, Mutation, Cultivation, Progression & Equipment Engine (Completed)
+* **Deliverables:**
+  * Multi-system tier ladder (Cultivation, Awakening, Magic, Mutation, Martial Arts, Soul, Tech, Hybrid).
+  * 7-Tier configurable progression system (`Novice` to `Transcendent`) with `Early`, `Mid`, `Late`, `Peak` sub-realms.
+  * 12-Dimensional Power Vector (Physical, Energy, Speed, Durability, Perception, Mental, Technique, Combat Skill, Control, Adaptability, Regeneration, Special Ability).
+  * Validated breakthrough engine with bottleneck checks, catalyst requirements, and ceiling limits.
+  * 10-category Mutation Engine with 6 stability states and epistemic visibility filters.
+  * 17 ability types and 5 mastery ranks with chapter cooldown enforcement.
+  * Equipment & Relic engine with 7 rarities, durability loss/destruction, and immutable provenance history.
+  * Multi-dimensional Combat Assessment Engine with probabilistic outcomes, decisive factors, and reversal conditions.
+  * Power QA Guard and live continuity validator reporting Power QA Score.
+  * Interactive UI tabs in `dashboard.html` for systems, dossiers, combat simulation, equipment, and QA.
+  * Full seed data for *"Echoes of the Fallen Heaven"* and 12 automated unit tests.
+* **Exit Criteria:** 100% test pass rate across all 28 automated unit tests; temporal isolation verified; breakthrough invariants verified.
 
-* Arc Planner & Chapter Blueprinting agent prompts.
-* Scene beat planner (3–5 scenes per chapter).
-* Tension curve and hook placement validation.
-
-### Phase 4: Scene-by-Scene Generation & Assembly
-* Iterative scene generation loop with local micro-state tracking.
-* Character Voice profiling & Anti-AI Cliché Filter.
-* Chapter stitching and transition smoothing.
+### Phase 4: Multi-Agent Writing & Critique Pipeline (Next Phase)
 
 ### Phase 5: Hybrid Cultivation & Combat Engine
 * Cultivation realm, sub-realm, and technique data structures.

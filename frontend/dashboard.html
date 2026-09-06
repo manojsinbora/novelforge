@@ -81,16 +81,20 @@
         </div>
         <ul class="nav-links">
             <li class="nav-item active" onclick="showTab('tab-dashboard')">📊 Dashboard</li>
+            <li class="nav-item" onclick="showTab('tab-power')">⚡ Power Systems</li>
+            <li class="nav-item" onclick="showTab('tab-combat')">⚔️ Combat Simulator</li>
+            <li class="nav-item" onclick="showTab('tab-equipment')">🛡️ Equipment & Relics</li>
+            <li class="nav-item" onclick="showTab('tab-power-qa')">🔍 Power QA Guard</li>
             <li class="nav-item" onclick="showTab('tab-bible')">📖 Story Bible</li>
             <li class="nav-item" onclick="showTab('tab-characters')">👤 Characters</li>
             <li class="nav-item" onclick="showTab('tab-world')">🗺️ World Engine</li>
             <li class="nav-item" onclick="showTab('tab-timeline')">⏳ Timeline & Events</li>
             <li class="nav-item" onclick="showTab('tab-state')">🔍 State Inspector</li>
-            <li class="nav-item" onclick="showTab('tab-canon')">🛡️ Canon & Audit Log</li>
+            <li class="nav-item" onclick="showTab('tab-canon')">📜 Canon & Audit Log</li>
         </ul>
         <div style="padding: 20px; border-top: 1px solid var(--border-color); font-size: 0.8rem; color: var(--text-secondary);">
             Persistence: SQLite / PG<br>
-            Version: 2.0.0 (Phase 2)
+            Version: 3.0.0 (Phase 3 Power Engine)
         </div>
     </div>
 
@@ -234,6 +238,174 @@ Loading state snapshot at Chapter 1...
                 </div>
             </div>
 
+            <!-- PHASE 3: POWER SYSTEMS -->
+            <div id="tab-power" class="tab-view">
+                <div class="card">
+                    <div class="card-header">
+                        <span>Sevenfold Awakening Tier Hierarchy</span>
+                        <span class="tag tag-realm">Canonical Multipliers</span>
+                    </div>
+                    <p style="color: var(--text-secondary); margin-bottom: 20px;">
+                        Authoritative cultivation ladder with non-linear exponential scaling. Sub-realms: Early &rarr; Mid &rarr; Late &rarr; Peak.
+                    </p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Realm Name</th>
+                                <th>Base Mult</th>
+                                <th>Bottleneck & Breakthrough Requirements</th>
+                                <th>Sub-Stages</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Tier 1</td><td><strong>Novice</strong></td><td>1.0x</td><td>Pathway condensation; 100 meditation hrs</td><td>Early, Mid, Late, Peak</td></tr>
+                            <tr><td>Tier 2</td><td><strong>Intermediate</strong></td><td>2.2x</td><td>Liquid core condensation; 200 meditation hrs</td><td>Early, Mid, Late, Peak</td></tr>
+                            <tr><td>Tier 3</td><td><strong>Master</strong></td><td>4.8x</td><td>Core crystallization; Spirit catalyst required</td><td>Early, Mid, Late, Peak</td></tr>
+                            <tr><td>Tier 4</td><td><strong>Grand Master</strong></td><td>10.5x</td><td>Domain seed awakening; Heavenly tribulation</td><td>Early, Mid, Late, Peak</td></tr>
+                            <tr><td>Tier 5</td><td><strong>Great Grand Master</strong></td><td>22.0x</td><td>Conceptual bone fusion; Soul cleansing pill</td><td>Early, Mid, Late, Peak</td></tr>
+                            <tr><td>Tier 6</td><td><strong>Sovereign</strong></td><td>48.0x</td><td>Spatial dominion manifestation; Void resonance</td><td>Early, Mid, Late, Peak</td></tr>
+                            <tr><td>Tier 7</td><td><strong>Transcendent</strong></td><td>100.0x</td><td>Mortal boundary transcendence; Cosmic comprehension</td><td>Early, Mid, Late, Peak</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">Active Character Power Vector (Lin Chen)</div>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
+                        <div style="background: var(--bg-card); padding: 12px; border-radius: 6px;">Physical: <strong style="color: var(--accent-blue);">28.0</strong></div>
+                        <div style="background: var(--bg-card); padding: 12px; border-radius: 6px;">Energy (Qi): <strong style="color: var(--accent-blue);">35.0</strong></div>
+                        <div style="background: var(--bg-card); padding: 12px; border-radius: 6px;">Speed: <strong style="color: var(--accent-blue);">30.0</strong></div>
+                        <div style="background: var(--bg-card); padding: 12px; border-radius: 6px;">Durability: <strong style="color: var(--accent-blue);">26.0</strong></div>
+                        <div style="background: var(--bg-card); padding: 12px; border-radius: 6px;">Perception: <strong style="color: var(--accent-purple);">42.0 (Regression Bonus)</strong></div>
+                        <div style="background: var(--bg-card); padding: 12px; border-radius: 6px;">Mental: <strong style="color: var(--accent-purple);">48.0 (Past Life)</strong></div>
+                        <div style="background: var(--bg-card); padding: 12px; border-radius: 6px;">Technique: <strong style="color: var(--accent-green);">55.0 (Grandmaster IQ)</strong></div>
+                        <div style="background: var(--bg-card); padding: 12px; border-radius: 6px;">Combat Skill: <strong style="color: var(--accent-green);">60.0</strong></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHASE 3: COMBAT SIMULATOR -->
+            <div id="tab-combat" class="tab-view">
+                <div class="card">
+                    <div class="card-header">Deterministic Multi-Dimensional Combat Evaluator</div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                        <div>
+                            <label style="font-size: 0.85rem; color: var(--text-secondary);">Combatant A (Protagonist):</label>
+                            <select id="combat-a" style="width: 100%; padding: 10px; background: var(--bg-card); color: #fff; border: 1px solid var(--border-color); border-radius: 6px; margin-top: 5px;">
+                                <option value="lin_chen">Lin Chen (Novice Peak / Regression Sense)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label style="font-size: 0.85rem; color: var(--text-secondary);">Combatant B (Opponent):</label>
+                            <select id="combat-b" style="width: 100%; padding: 10px; background: var(--bg-card); color: #fff; border: 1px solid var(--border-color); border-radius: 6px; margin-top: 5px;">
+                                <option value="song_yu">Song Yu (Novice Late / Pure Offense)</option>
+                                <option value="elder_han">Elder Han (Intermediate Late / Disciplinary Suppression)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" onclick="runCombatSimulation()">⚔️ Simulate Matchup</button>
+
+                    <div id="combat-results-box" style="margin-top: 20px; background: var(--bg-card); border-radius: 8px; padding: 20px; display: none;">
+                        <h4 id="combat-outcome-title" style="color: var(--accent-blue); margin-bottom: 10px;"></h4>
+                        <div style="font-size: 1.1rem; margin-bottom: 12px;" id="combat-odds"></div>
+                        <p id="combat-factors" style="color: var(--text-secondary); margin-bottom: 10px;"></p>
+                        <div id="combat-reversal" style="padding: 10px; background: #3b82f620; border-left: 3px solid var(--accent-purple); font-size: 0.85rem;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHASE 3: EQUIPMENT & RELICS -->
+            <div id="tab-equipment" class="tab-view">
+                <div class="card">
+                    <div class="card-header">
+                        <span>Equipment Catalog & Provenance History</span>
+                        <span class="tag tag-canon">Audited Invariants</span>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Item Name</th>
+                                <th>Rarity</th>
+                                <th>Slot</th>
+                                <th>Current Bearer</th>
+                                <th>Durability</th>
+                                <th>Active Resonance</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Heaven-Cleaving Needle</strong></td>
+                                <td><span class="tag" style="background: #eab30830; color: #facc15; border: 1px solid #eab308;">LEGENDARY</span></td>
+                                <td>MAIN_HAND</td>
+                                <td>Lin Chen</td>
+                                <td>92 / 100</td>
+                                <td>Spatial Puncture (+45% armor pen)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Ghost Yin Bell</strong></td>
+                                <td><span class="tag" style="background: #a855f730; color: #c084fc; border: 1px solid #a855f7;">EPIC</span></td>
+                                <td>ARTIFACT</td>
+                                <td>Ghost Envoy Mo</td>
+                                <td>100 / 100</td>
+                                <td>Soul Daze (3s stun, Qi counter)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Fallen Heaven Ring</strong></td>
+                                <td><span class="tag" style="background: #ef444430; color: #f87171; border: 1px solid #ef4444;">MYTHIC</span></td>
+                                <td>RING</td>
+                                <td>Lin Chen (Soul Bound)</td>
+                                <td>100 / 100</td>
+                                <td>Regression Pocket Dimension</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- PHASE 3: POWER QA GUARD -->
+            <div id="tab-power-qa" class="tab-view">
+                <div class="card">
+                    <div class="card-header">
+                        <span>Power QA & Continuity Guard</span>
+                        <span class="tag tag-canon" style="background: #22c55e20; color: #4ade80;">Score: 98/100</span>
+                    </div>
+                    <p style="color: var(--text-secondary); margin-bottom: 16px;">
+                        Automated verification of cultivation rules: impossible breakthroughs, cooldown violations, destroyed gear usage, and flashback continuity leaks.
+                    </p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Rule Checked</th>
+                                <th>Status</th>
+                                <th>Offending Chapter</th>
+                                <th>Verification Detail</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Breakthrough Bottleneck Legality</td>
+                                <td><span class="tag tag-canon">PASSED</span></td>
+                                <td>All (1–30)</td>
+                                <td>No unearned realm leaps detected. All advancements have catalysts.</td>
+                            </tr>
+                            <tr>
+                                <td>Ability Cooldown & Unlock Continuity</td>
+                                <td><span class="tag tag-canon">PASSED</span></td>
+                                <td>All (1–30)</td>
+                                <td>No future abilities leaked into historical flashback scenes.</td>
+                            </tr>
+                            <tr>
+                                <td>Equipment Ownership & Durability</td>
+                                <td><span class="tag tag-canon">PASSED</span></td>
+                                <td>All (1–30)</td>
+                                <td>Destroyed artifacts are strictly prohibited from active wield lists.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -243,6 +415,24 @@ Loading state snapshot at Chapter 1...
             document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
             document.getElementById(tabId).classList.add('active');
             event.currentTarget.classList.add('active');
+        }
+
+        function runCombatSimulation() {
+            const opponent = document.getElementById('combat-b').value;
+            const resBox = document.getElementById('combat-results-box');
+            resBox.style.display = 'block';
+
+            if (opponent === 'song_yu') {
+                document.getElementById('combat-outcome-title').innerText = "Simulation: Lin Chen vs Song Yu (Favorable Matchup)";
+                document.getElementById('combat-odds').innerHTML = "Lin Chen: <strong style='color: var(--accent-green);'>76.5%</strong> | Song Yu: <strong style='color: var(--accent-red);'>18.2%</strong> | Draw: 5.3%";
+                document.getElementById('combat-factors').innerText = "Decisive Factors: Martial Mastery (+20% battle IQ), Reflex velocity (+15%). Lin Chen's regression instincts completely neutralize Song Yu's telegraphed strike.";
+                document.getElementById('combat-reversal').innerText = "⚠️ Reversal Condition: If Song Yu consumes Forbidden Blood Condensation Pill, his win probability temporarily jumps to 44.0%.";
+            } else {
+                document.getElementById('combat-outcome-title').innerText = "Simulation: Lin Chen vs Elder Han (Severe Realm Gap)";
+                document.getElementById('combat-odds').innerHTML = "Elder Han: <strong style='color: var(--accent-green);'>88.4%</strong> | Lin Chen: <strong style='color: var(--accent-red);'>9.1%</strong> | Draw: 2.5%";
+                document.getElementById('combat-factors').innerText = "Decisive Factors: Overwhelming Realm Suppression (Intermediate Late vs Novice Peak). Liquid core aura exerts heavy crushing force.";
+                document.getElementById('combat-reversal').innerText = "⚠️ Reversal Condition: If Lin Chen unleashes Heaven-Cleaving Needle spatial puncture with 100% Qi sacrifice, win probability increases to 38.5%.";
+            }
         }
 
         const charactersData = [

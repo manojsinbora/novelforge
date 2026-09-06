@@ -1,0 +1,317 @@
+{
+  "id": "b8e0ece8-70cd-4a47-a320-08eebc809c51",
+  "story_id": "echoes-of-fallen-heaven-001",
+  "name": "Sevenfold Heavenly Dao Cultivation",
+  "system_type": "CULTIVATION",
+  "description": "Universal seven-tier cultivation progression system with sub-realms.",
+  "energy_type": "QI",
+  "tiers": [
+    {
+      "rank": 1,
+      "name": "Novice",
+      "description": "The foundation realm. Energy pathways begin opening; physical senses sharpen.",
+      "base_multiplier": 1.0,
+      "stages": [
+        {
+          "name": "Early",
+          "order": 1,
+          "stat_multiplier": 1.0,
+          "description": "Novice Early Stage"
+        },
+        {
+          "name": "Mid",
+          "order": 2,
+          "stat_multiplier": 1.25,
+          "description": "Novice Mid Stage"
+        },
+        {
+          "name": "Late",
+          "order": 3,
+          "stat_multiplier": 1.55,
+          "description": "Novice Late Stage"
+        },
+        {
+          "name": "Peak",
+          "order": 4,
+          "stat_multiplier": 1.9,
+          "description": "Novice Peak Stage"
+        }
+      ],
+      "breakthrough_requirements": {
+        "min_stage": "Peak",
+        "energy_purity_required": 0.48,
+        "meditation_hours_required": 100,
+        "catalyst_required": false
+      },
+      "bottleneck_description": "Bottleneck of the Novice realm requiring condensation and comprehension.",
+      "failure_penalty": {
+        "backlash_damage": 15.0,
+        "risk_of_qi_deviation": false
+      }
+    },
+    {
+      "rank": 2,
+      "name": "Intermediate",
+      "description": "Energy condenses into liquid form. Skin and bone density increase threefold.",
+      "base_multiplier": 2.2,
+      "stages": [
+        {
+          "name": "Early",
+          "order": 1,
+          "stat_multiplier": 1.0,
+          "description": "Intermediate Early Stage"
+        },
+        {
+          "name": "Mid",
+          "order": 2,
+          "stat_multiplier": 1.25,
+          "description": "Intermediate Mid Stage"
+        },
+        {
+          "name": "Late",
+          "order": 3,
+          "stat_multiplier": 1.55,
+          "description": "Intermediate Late Stage"
+        },
+        {
+          "name": "Peak",
+          "order": 4,
+          "stat_multiplier": 1.9,
+          "description": "Intermediate Peak Stage"
+        }
+      ],
+      "breakthrough_requirements": {
+        "min_stage": "Peak",
+        "energy_purity_required": 0.56,
+        "meditation_hours_required": 200,
+        "catalyst_required": false
+      },
+      "bottleneck_description": "Bottleneck of the Intermediate realm requiring condensation and comprehension.",
+      "failure_penalty": {
+        "backlash_damage": 30.0,
+        "risk_of_qi_deviation": false
+      }
+    },
+    {
+      "rank": 3,
+      "name": "Master",
+      "description": "Energy core forms. Ability to project aura externally and weaponize intent.",
+      "base_multiplier": 4.8,
+      "stages": [
+        {
+          "name": "Early",
+          "order": 1,
+          "stat_multiplier": 1.0,
+          "description": "Master Early Stage"
+        },
+        {
+          "name": "Mid",
+          "order": 2,
+          "stat_multiplier": 1.25,
+          "description": "Master Mid Stage"
+        },
+        {
+          "name": "Late",
+          "order": 3,
+          "stat_multiplier": 1.55,
+          "description": "Master Late Stage"
+        },
+        {
+          "name": "Peak",
+          "order": 4,
+          "stat_multiplier": 1.9,
+          "description": "Master Peak Stage"
+        }
+      ],
+      "breakthrough_requirements": {
+        "min_stage": "Peak",
+        "energy_purity_required": 0.64,
+        "meditation_hours_required": 300,
+        "catalyst_required": true
+      },
+      "bottleneck_description": "Bottleneck of the Master realm requiring condensation and comprehension.",
+      "failure_penalty": {
+        "backlash_damage": 45.0,
+        "risk_of_qi_deviation": false
+      }
+    },
+    {
+      "rank": 4,
+      "name": "Grand Master",
+      "description": "Domain seed awakens. Flight or extreme levitation becomes effortless.",
+      "base_multiplier": 10.5,
+      "stages": [
+        {
+          "name": "Early",
+          "order": 1,
+          "stat_multiplier": 1.0,
+          "description": "Grand Master Early Stage"
+        },
+        {
+          "name": "Mid",
+          "order": 2,
+          "stat_multiplier": 1.25,
+          "description": "Grand Master Mid Stage"
+        },
+        {
+          "name": "Late",
+          "order": 3,
+          "stat_multiplier": 1.55,
+          "description": "Grand Master Late Stage"
+        },
+        {
+          "name": "Peak",
+          "order": 4,
+          "stat_multiplier": 1.9,
+          "description": "Grand Master Peak Stage"
+        }
+      ],
+      "breakthrough_requirements": {
+        "min_stage": "Peak",
+        "energy_purity_required": 0.72,
+        "meditation_hours_required": 400,
+        "catalyst_required": true
+      },
+      "bottleneck_description": "Bottleneck of the Grand Master realm requiring condensation and comprehension.",
+      "failure_penalty": {
+        "backlash_damage": 60.0,
+        "risk_of_qi_deviation": true
+      }
+    },
+    {
+      "rank": 5,
+      "name": "Great Grand Master",
+      "description": "Conceptual resonance. Flesh merges with energetic pathways.",
+      "base_multiplier": 22.0,
+      "stages": [
+        {
+          "name": "Early",
+          "order": 1,
+          "stat_multiplier": 1.0,
+          "description": "Great Grand Master Early Stage"
+        },
+        {
+          "name": "Mid",
+          "order": 2,
+          "stat_multiplier": 1.25,
+          "description": "Great Grand Master Mid Stage"
+        },
+        {
+          "name": "Late",
+          "order": 3,
+          "stat_multiplier": 1.55,
+          "description": "Great Grand Master Late Stage"
+        },
+        {
+          "name": "Peak",
+          "order": 4,
+          "stat_multiplier": 1.9,
+          "description": "Great Grand Master Peak Stage"
+        }
+      ],
+      "breakthrough_requirements": {
+        "min_stage": "Peak",
+        "energy_purity_required": 0.8,
+        "meditation_hours_required": 500,
+        "catalyst_required": true
+      },
+      "bottleneck_description": "Bottleneck of the Great Grand Master realm requiring condensation and comprehension.",
+      "failure_penalty": {
+        "backlash_damage": 75.0,
+        "risk_of_qi_deviation": true
+      }
+    },
+    {
+      "rank": 6,
+      "name": "Sovereign",
+      "description": "Domain manifestation. Can manipulate local space and atmospheric intent.",
+      "base_multiplier": 48.0,
+      "stages": [
+        {
+          "name": "Early",
+          "order": 1,
+          "stat_multiplier": 1.0,
+          "description": "Sovereign Early Stage"
+        },
+        {
+          "name": "Mid",
+          "order": 2,
+          "stat_multiplier": 1.25,
+          "description": "Sovereign Mid Stage"
+        },
+        {
+          "name": "Late",
+          "order": 3,
+          "stat_multiplier": 1.55,
+          "description": "Sovereign Late Stage"
+        },
+        {
+          "name": "Peak",
+          "order": 4,
+          "stat_multiplier": 1.9,
+          "description": "Sovereign Peak Stage"
+        }
+      ],
+      "breakthrough_requirements": {
+        "min_stage": "Peak",
+        "energy_purity_required": 0.88,
+        "meditation_hours_required": 600,
+        "catalyst_required": true
+      },
+      "bottleneck_description": "Bottleneck of the Sovereign realm requiring condensation and comprehension.",
+      "failure_penalty": {
+        "backlash_damage": 90.0,
+        "risk_of_qi_deviation": true
+      }
+    },
+    {
+      "rank": 7,
+      "name": "Transcendent",
+      "description": "Complete transcendence of mortal constraints. Conceptual dominion.",
+      "base_multiplier": 100.0,
+      "stages": [
+        {
+          "name": "Early",
+          "order": 1,
+          "stat_multiplier": 1.0,
+          "description": "Transcendent Early Stage"
+        },
+        {
+          "name": "Mid",
+          "order": 2,
+          "stat_multiplier": 1.25,
+          "description": "Transcendent Mid Stage"
+        },
+        {
+          "name": "Late",
+          "order": 3,
+          "stat_multiplier": 1.55,
+          "description": "Transcendent Late Stage"
+        },
+        {
+          "name": "Peak",
+          "order": 4,
+          "stat_multiplier": 1.9,
+          "description": "Transcendent Peak Stage"
+        }
+      ],
+      "breakthrough_requirements": {
+        "min_stage": "Peak",
+        "energy_purity_required": 0.96,
+        "meditation_hours_required": 700,
+        "catalyst_required": true
+      },
+      "bottleneck_description": "Bottleneck of the Transcendent realm requiring condensation and comprehension.",
+      "failure_penalty": {
+        "backlash_damage": 105.0,
+        "risk_of_qi_deviation": true
+      }
+    }
+  ],
+  "rules": {
+    "cross_tier_suppression": 2.0,
+    "domain_unlock_tier": 4,
+    "allow_hybrid": true
+  },
+  "created_at": "2026-09-06T08:13:44.712523"
+}

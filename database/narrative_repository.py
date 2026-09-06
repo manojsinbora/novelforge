@@ -27,6 +27,8 @@ class NarrativeRepository:
         self.conn = sqlite3.connect(self.db_path, check_same_thread=False)
         self.conn.row_factory = sqlite3.Row
         self._init_schema()
+        from novelforge.database.power_repository import PowerRepository
+        self.power_repo = PowerRepository(db_path=self.db_path, conn=self.conn)
 
     def _init_schema(self):
         with self.conn:

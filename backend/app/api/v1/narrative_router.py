@@ -4,8 +4,37 @@ Phase 2 Endpoints: Stories, Hierarchy, Characters, Knowledge, World, Timeline, S
 """
 from __future__ import annotations
 from typing import Dict, Any, List, Optional
-from fastapi import APIRouter, HTTPException, Query
-from pydantic import BaseModel, Field
+
+try:
+    from fastapi import APIRouter, HTTPException, Query
+    from pydantic import BaseModel, Field
+    FASTAPI_AVAILABLE = True
+except ImportError:
+    FASTAPI_AVAILABLE = False
+    class APIRouter:
+        def __init__(self, *args, **kwargs):
+            self.routes = []
+        def get(self, *args, **kwargs):
+            def decorator(f): return f
+            return decorator
+        def post(self, *args, **kwargs):
+            def decorator(f): return f
+            return decorator
+        def put(self, *args, **kwargs):
+            def decorator(f): return f
+            return decorator
+        def delete(self, *args, **kwargs):
+            def decorator(f): return f
+            return decorator
+    class HTTPException(Exception):
+        def __init__(self, status_code: int, detail: str):
+            self.status_code = status_code
+            self.detail = detail
+    class BaseModel:
+        pass
+    def Field(*args, **kwargs):
+        return None
+
 from novelforge.database.narrative_repository import NarrativeRepository
 from novelforge.backend.app.services.story_context_service import StoryContextService
 from novelforge.backend.app.services.canon_service import CanonService

@@ -1,0 +1,337 @@
+{
+  "character_id": "char-001",
+  "chapter_audited": 1,
+  "tier": 1,
+  "stage": "Peak",
+  "tier_name": "Novice",
+  "base_power_vector": {
+    "physical": 28.0,
+    "energy": 35.0,
+    "speed": 30.0,
+    "durability": 26.0,
+    "perception": 42.0,
+    "mental": 48.0,
+    "technique": 55.0,
+    "combat_skill": 60.0,
+    "control": 32.0,
+    "adaptability": 35.0,
+    "regeneration": 20.0,
+    "special_ability": 45.0
+  },
+  "effective_power_vector": {
+    "physical": 604.0,
+    "energy": 71.0,
+    "speed": 30.0,
+    "durability": 50.0,
+    "perception": 72.0,
+    "mental": 88.0,
+    "technique": 455.0,
+    "combat_skill": 60.0,
+    "control": 656.0,
+    "adaptability": 35.0,
+    "regeneration": 20.0,
+    "special_ability": 945.0
+  },
+  "raw_combat_rating": 866.4,
+  "effective_combat_rating": 5863.4,
+  "potential": {
+    "ceiling_tier": 7,
+    "latent_attributes": {},
+    "bottleneck_difficulty": 1.0,
+    "growth_rate": 1.0
+  },
+  "energy_pools": [
+    {
+      "energy_type": "QI",
+      "current": 100.0,
+      "maximum": 100.0,
+      "purity": 0.5,
+      "density": 1.0,
+      "regeneration_rate": 5.0
+    }
+  ],
+  "mutations": [
+    {
+      "id": "d2229f92-df61-46aa-9f1c-dcfa6e2bcc37",
+      "character_id": "char-001",
+      "story_id": "echoes-of-fallen-heaven-001",
+      "name": "Reincarnator Soul Eye",
+      "category": "SOUL",
+      "stability": "STABLE",
+      "tier": 2,
+      "stat_modifiers": {
+        "perception": 15.0,
+        "mental": 20.0
+      },
+      "abilities_granted": [
+        "Temporal Echo Feint"
+      ],
+      "drawbacks": [
+        "Soul fatigue under prolonged focus"
+      ],
+      "triggers": [],
+      "hidden_from_character": false,
+      "hidden_from_world": true,
+      "chapter_manifested": 1,
+      "created_at": "2026-09-06T08:13:31.839382"
+    },
+    {
+      "id": "fa919388-07b9-45dd-a5e0-4e2d0db314af",
+      "character_id": "char-001",
+      "story_id": "echoes-of-fallen-heaven-001",
+      "name": "Reincarnator Soul Eye",
+      "category": "SOUL",
+      "stability": "STABLE",
+      "tier": 2,
+      "stat_modifiers": {
+        "perception": 15.0,
+        "mental": 20.0
+      },
+      "abilities_granted": [
+        "Temporal Echo Feint"
+      ],
+      "drawbacks": [
+        "Soul fatigue under prolonged focus"
+      ],
+      "triggers": [],
+      "hidden_from_character": false,
+      "hidden_from_world": true,
+      "chapter_manifested": 1,
+      "created_at": "2026-09-06T08:13:44.713751"
+    },
+    {
+      "id": "78d11fe7-c364-4419-9d9e-c5d73f254957",
+      "character_id": "char-001",
+      "story_id": "echoes-of-fallen-heaven-001",
+      "name": "Jade Meridian Bone",
+      "category": "SKELETAL",
+      "stability": "STABLE",
+      "tier": 1,
+      "stat_modifiers": {
+        "durability": 12.0,
+        "physical": 8.0
+      },
+      "abilities_granted": [],
+      "drawbacks": [],
+      "triggers": [],
+      "hidden_from_character": false,
+      "hidden_from_world": false,
+      "chapter_manifested": 1,
+      "created_at": "2026-09-06T08:13:31.840183"
+    },
+    {
+      "id": "a7b6b158-fa3e-471f-9df2-49aa3f41ff56",
+      "character_id": "char-001",
+      "story_id": "echoes-of-fallen-heaven-001",
+      "name": "Jade Meridian Bone",
+      "category": "SKELETAL",
+      "stability": "STABLE",
+      "tier": 1,
+      "stat_modifiers": {
+        "durability": 12.0,
+        "physical": 8.0
+      },
+      "abilities_granted": [],
+      "drawbacks": [],
+      "triggers": [],
+      "hidden_from_character": false,
+      "hidden_from_world": false,
+      "chapter_manifested": 1,
+      "created_at": "2026-09-06T08:13:44.714047"
+    }
+  ],
+  "abilities": [
+    {
+      "id": "22ecd5d3-a82b-4a01-8226-94e5a310ef30",
+      "character_id": "char-001",
+      "story_id": "echoes-of-fallen-heaven-001",
+      "name": "Temporal Echo Feint",
+      "ability_type": "SPATIAL",
+      "mastery": "ADEPT",
+      "energy_cost": 25.0,
+      "energy_type": "QI",
+      "cooldown_scenes": 2,
+      "cast_time_seconds": 1.0,
+      "range_meters": 5.0,
+      "aoe_radius_meters": 0.0,
+      "damage_type": "Kinetic",
+      "description": "Leaves a residual spatial silhouette that absorbs one physical blow.",
+      "requirements": {},
+      "synergies": [],
+      "counter_types": [],
+      "chapter_unlocked": 1,
+      "last_used_chapter": null,
+      "created_at": "2026-09-06T08:13:31.841910"
+    },
+    {
+      "id": "0ef55949-ac5e-4f73-bcb6-4a804ad83ae4",
+      "character_id": "char-001",
+      "story_id": "echoes-of-fallen-heaven-001",
+      "name": "Temporal Echo Feint",
+      "ability_type": "SPATIAL",
+      "mastery": "ADEPT",
+      "energy_cost": 25.0,
+      "energy_type": "QI",
+      "cooldown_scenes": 2,
+      "cast_time_seconds": 1.0,
+      "range_meters": 5.0,
+      "aoe_radius_meters": 0.0,
+      "damage_type": "Kinetic",
+      "description": "Leaves a residual spatial silhouette that absorbs one physical blow.",
+      "requirements": {},
+      "synergies": [],
+      "counter_types": [],
+      "chapter_unlocked": 1,
+      "last_used_chapter": null,
+      "created_at": "2026-09-06T08:13:44.714592"
+    }
+  ],
+  "techniques": [
+    {
+      "id": "b0538b74-ca1d-42d3-a2e1-c1e0f3d2ee57",
+      "character_id": "char-001",
+      "story_id": "echoes-of-fallen-heaven-001",
+      "name": "Formless Void Breathing",
+      "technique_type": "BREATH_TECHNIQUE",
+      "rank": "Heaven",
+      "current_level": 3,
+      "max_level": 9,
+      "requirements": {},
+      "evolution_path": [],
+      "stat_modifiers": {
+        "energy": 18.0,
+        "control": 12.0
+      },
+      "description": "Ancient breath circulation method retaining insights from Lin Chen's past life.",
+      "chapter_learned": 1,
+      "created_at": "2026-09-06T08:13:31.841049"
+    },
+    {
+      "id": "f81deb40-a8bf-4ee9-aee6-b7ad7ff2e2f9",
+      "character_id": "char-001",
+      "story_id": "echoes-of-fallen-heaven-001",
+      "name": "Formless Void Breathing",
+      "technique_type": "BREATH_TECHNIQUE",
+      "rank": "Heaven",
+      "current_level": 3,
+      "max_level": 9,
+      "requirements": {},
+      "evolution_path": [],
+      "stat_modifiers": {
+        "energy": 18.0,
+        "control": 12.0
+      },
+      "description": "Ancient breath circulation method retaining insights from Lin Chen's past life.",
+      "chapter_learned": 1,
+      "created_at": "2026-09-06T08:13:44.714321"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "9c8d97e6-b5fe-4332-90e1-1da11aa5f5b5",
+      "story_id": "echoes-of-fallen-heaven-001",
+      "name": "Heaven-Cleaving Needle",
+      "rarity": "LEGENDARY",
+      "slot": "MAIN_HAND",
+      "current_owner_id": "char-001",
+      "current_durability": 100.0,
+      "max_durability": 100.0,
+      "is_bound": false,
+      "attributes": {
+        "physical": 280.0,
+        "technique": 200.0
+      },
+      "passive_effects": [
+        "Spatial Puncture: Pierces Tier 2 defenses"
+      ],
+      "active_skills": [
+        "Dimensional Fracture: Destroys target core on critical hit"
+      ],
+      "spirit_resonance": 0.85,
+      "evolution_tier": 1,
+      "is_destroyed": false,
+      "chapter_created": 1,
+      "destruction_chapter": null,
+      "created_at": "2026-09-06T08:13:31.842853"
+    },
+    {
+      "id": "8782c251-de2f-40ba-b233-2354f2f95545",
+      "story_id": "echoes-of-fallen-heaven-001",
+      "name": "Fallen Heaven Ring",
+      "rarity": "MYTHIC",
+      "slot": "RING",
+      "current_owner_id": "char-001",
+      "current_durability": 100.0,
+      "max_durability": 100.0,
+      "is_bound": false,
+      "attributes": {
+        "control": 300.0,
+        "special_ability": 450.0
+      },
+      "passive_effects": [
+        "Spatiotemporal concealment of aura"
+      ],
+      "active_skills": [],
+      "spirit_resonance": 1.0,
+      "evolution_tier": 1,
+      "is_destroyed": false,
+      "chapter_created": 1,
+      "destruction_chapter": null,
+      "created_at": "2026-09-06T08:13:31.844961"
+    },
+    {
+      "id": "55a224ce-2422-456d-9dc4-63bb96ff10ad",
+      "story_id": "echoes-of-fallen-heaven-001",
+      "name": "Heaven-Cleaving Needle",
+      "rarity": "LEGENDARY",
+      "slot": "MAIN_HAND",
+      "current_owner_id": "char-001",
+      "current_durability": 100.0,
+      "max_durability": 100.0,
+      "is_bound": false,
+      "attributes": {
+        "physical": 280.0,
+        "technique": 200.0
+      },
+      "passive_effects": [
+        "Spatial Puncture: Pierces Tier 2 defenses"
+      ],
+      "active_skills": [
+        "Dimensional Fracture: Destroys target core on critical hit"
+      ],
+      "spirit_resonance": 0.85,
+      "evolution_tier": 1,
+      "is_destroyed": false,
+      "chapter_created": 1,
+      "destruction_chapter": null,
+      "created_at": "2026-09-06T08:13:44.714833"
+    },
+    {
+      "id": "70e5f1ff-afea-43b2-b5ea-ac1969c407d9",
+      "story_id": "echoes-of-fallen-heaven-001",
+      "name": "Fallen Heaven Ring",
+      "rarity": "MYTHIC",
+      "slot": "RING",
+      "current_owner_id": "char-001",
+      "current_durability": 100.0,
+      "max_durability": 100.0,
+      "is_bound": false,
+      "attributes": {
+        "control": 300.0,
+        "special_ability": 450.0
+      },
+      "passive_effects": [
+        "Spatiotemporal concealment of aura"
+      ],
+      "active_skills": [],
+      "spirit_resonance": 1.0,
+      "evolution_tier": 1,
+      "is_destroyed": false,
+      "chapter_created": 1,
+      "destruction_chapter": null,
+      "created_at": "2026-09-06T08:13:44.715285"
+    }
+  ],
+  "progression_history": [],
+  "active_status_effects": []
+}
