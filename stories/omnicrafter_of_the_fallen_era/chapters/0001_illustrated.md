@@ -300,7 +300,7 @@ Barnaby was a fat, one-eared gray sewer rat who had lived behind the Section 8 h
 
 Arthur was kneeling behind the counter, shaking shards of broken glass out of his cuffs.
 
-> *[Pending Quota Reset: Scene 24 - Barnaby the fat one-eared rat perched triumphantly on the dead monster's chest, sniffing for crumbs while Arthur brushes glass from his cuffs in the background.]*
+![Barnaby the fat one-eared rat perched proudly on the monster's chest](../illustrations/chapter_01/scene_24_barnaby_claims_kill_1788859506369.jpg)
 
 ***
 
@@ -318,7 +318,7 @@ The fat rat didn't blink. His expression radiated pure, arrogant condescension, 
 
 Then Barnaby turned around and waddled victoriously back into a crack in the wainscoting.
 
-> *[Pending Quota Reset: Scene 25 - Survivors on their knees worshiping the "Sacred Rat of Section 14" while Barnaby casts an arrogant, condescending smirk directly at Arthur.]*
+![Survivors worshiping the Sacred Rat while Barnaby casts an arrogant smirk](../illustrations/chapter_01/scene_25_sacred_rat_worship_1788859535509.jpg)
 
 ***
 
@@ -332,7 +332,7 @@ Arthur slowly stood up from behind the workbench, holding his pipe wrench, his g
 
 The three survivors scrambled past him into the maintenance corridor, loudly singing praises to the legendary one-eared rat that had single-handedly delivered them from evil.
 
-> *[Pending Quota Reset: Scene 26 - Arthur standing covered head-to-toe in white lime dust holding his wrench, deadpan behind his respirator as the clerk furiously scolds him to grab a broom.]*
+![Arthur covered head-to-toe in white lime dust holding his wrench as the clerk yells](../illustrations/chapter_01/scene_26_arthur_covered_in_lime_1788859572369.jpg)
 
 ***
 
@@ -358,7 +358,7 @@ He picked up the small pencil on a string and neatly filled out the paper sign-o
 *Time: 2:14 PM*  
 *Reason: Unscheduled apocalypse. Stepping out to save sister. Will finish shelving Section 14 upon return.*
 
-> *[Pending Quota Reset: Scene 27 - Close-up of Arthur's hand neatly writing "Reason: Unscheduled apocalypse. Stepping out to save sister" on the library employee sign-out card with a dull pencil on a string.]*
+![Arthur writing his unscheduled apocalypse reason on the employee time-clock ledger](../illustrations/chapter_01/scene_27_signout_ledger_1788859596986.jpg)
 
 ***
 
@@ -370,5 +370,6 @@ The sky above the city was bruised purple. Sirens wailed across the rooftops.
 
 Arthur gripped his wrench, pulled down his mask, and stepped out into the ruins of the world.
 
-> *[Pending Quota Reset: Scene 28 - Wide dramatic exit shot: Arthur stepping out through the heavy iron door into the street under a bruised purple apocalyptic sky, wrench gripped firm, mask locked on, ready to fight for his sister.]*
+![Arthur stepping out through the fire door into the purple ruins of the world](../illustrations/chapter_01/scene_28_exit_into_ruins_1788859628696.jpg)
+
 
